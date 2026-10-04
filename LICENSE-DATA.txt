@@ -5,4 +5,4 @@ https://creativecommons.org/licenses/by/4.0/legalcode
 
 Attribution: J. T. Tarigan and R. F. Rahmat (2026), code, models and
 measurements for "Offloading Real-Time Stencil Simulations to Mobile Neural
-Processing Units: Overhead, Placement, and Correctness".
+Processing Units: Overhead, Placement, and Correctness", https://doi.org/10.5281/zenodo.23142544.

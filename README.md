@@ -6,7 +6,9 @@ Archive for the paper
 > Mobile Neural Processing Units: Overhead, Placement, and Correctness.
 > Submitted to the Journal of Systems Architecture.
 
-Archive DOI: assigned on publication
+Archive DOI: [10.5281/zenodo.23142544](https://doi.org/10.5281/zenodo.23142544)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23142544.svg)](https://doi.org/10.5281/zenodo.23142544)
 
 It holds the benchmark harnesses for macOS, iOS and Android, the scripts that
 build the Core ML and LiteRT graphs, the compiled models, the recorded fluid
