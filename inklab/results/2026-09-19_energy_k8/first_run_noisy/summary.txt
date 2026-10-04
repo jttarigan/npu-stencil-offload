@@ -1,0 +1,9 @@
+load         n   CPU mW   GPU mW   ANE mW  total mW mJ/step>idle
+idle        60      312        0        0       312         0.00
+metal_k1    60      342       15        0       349         1.23
+metal_k8    60      351       13        0       358         1.51
+ne_k1       60      313        0        9       322         0.33
+ne_k8       60      622        0        4       626        10.46
+cpu_k1      60      999        0        0      1000        22.91
+
+mJ/step>idle = (total - idle total) / 30 steps per second. Raw samples in out_k/.

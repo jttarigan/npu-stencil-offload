@@ -1,0 +1,17 @@
+condition                      vs        border max  interior max   (absolute; range of fp32 output in brackets)
+grayscott_s8_K1_nnapi          fp32 cpu      0.0172      0.000379   [0.318]
+grayscott_s8_K1_nnapi          edge          0.0172      0.000379   [0.318]
+grayscott_s8_K1_nnapi          reflect     0.000386      0.000347   [0.318]
+                               (NumPy edge model vs fp32 cpu: 6e-08, so the model is the graph)
+heat_s32_K1_nnapi              fp32 cpu     0.00664       0.00259   [0.0555]
+heat_s32_K1_nnapi              edge         0.00664       0.00259   [0.0555]
+heat_s32_K1_nnapi              reflect     1.98e-05      1.76e-05   [0.0555]
+                               (NumPy edge model vs fp32 cpu: 7.5e-09, so the model is the graph)
+heat_s8_K1_nnapi               fp32 cpu       0.022      0.000649   [0.121]
+heat_s8_K1_nnapi               edge           0.022      0.000649   [0.121]
+heat_s8_K1_nnapi               reflect     3.61e-05      3.84e-05   [0.121]
+                               (NumPy edge model vs fp32 cpu: 1.1e-08, so the model is the graph)
+padtest_K1_nnapi               fp32 cpu       0.189      3.05e-05   [0.2]
+padtest_K1_nnapi               edge           0.189      3.05e-05   [0.2]
+padtest_K1_nnapi               reflect     3.05e-05      3.05e-05   [0.2]
+                               (NumPy edge model vs fp32 cpu: 0, so the model is the graph)

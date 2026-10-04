@@ -1,0 +1,29 @@
+{
+  "title": "Offloading real-time stencil simulations to mobile NPUs: code, models and measurements",
+  "upload_type": "software",
+  "description": "<p>Benchmark harnesses (macOS, iOS, Android), Core ML and LiteRT graph builders, compiled models, recorded fluid traces and every measurement for the paper <em>Offloading Real-Time Stencil Simulations to Mobile Neural Processing Units: Overhead, Placement, and Correctness</em> (J. T. Tarigan and R. F. Rahmat, submitted to the Journal of Systems Architecture).</p><p>Code: PolyForm Noncommercial License 1.0.0. Data, models, traces and documentation: CC BY 4.0. See README.md.</p>",
+  "creators": [
+    {
+      "name": "Tarigan, Jos Timanta",
+      "affiliation": "Universitas Sumatera Utara",
+      "orcid": "0000-0001-9433-2265"
+    },
+    {
+      "name": "Rahmat, Romi Fadillah",
+      "affiliation": "Universitas Sumatera Utara",
+      "orcid": "0000-0003-4855-294X"
+    }
+  ],
+  "license": "polyform-noncommercial-1.0.0",
+  "access_right": "open",
+  "keywords": [
+    "neural processing unit",
+    "offload overhead",
+    "stencil computation",
+    "stable fluids",
+    "Core ML",
+    "LiteRT",
+    "NNAPI",
+    "mobile GPU"
+  ]
+}

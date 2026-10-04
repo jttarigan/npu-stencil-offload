@@ -1,0 +1,9 @@
+10-02 11:26:37.344 I/InkBench(27412): CHECK heat_s32_ec K=2 litert-gpu out0 n=32768 range=0.0579 maxabs=3.23e-05 rms=4.67e-06 max_of_range=0.000557 rms_of_range=8.07e-05 nonfinite=0
+10-02 11:27:42.690 I/InkBench(27412): CHECK heat_s32_ec K=4 litert-gpu out0 n=32768 range=0.0450 maxabs=2.83e-05 rms=4.88e-06 max_of_range=0.000629 rms_of_range=0.000108 nonfinite=0
+10-02 11:29:01.454 I/InkBench(27412): CHECK heat_s32_ec K=8 litert-gpu out0 n=32768 range=0.0540 maxabs=4.30e-05 rms=5.90e-06 max_of_range=0.000797 rms_of_range=0.000109 nonfinite=0
+10-02 11:29:54.518 I/InkBench(27412): CHECK heat_s8_ec K=2 litert-gpu out0 n=32768 range=0.118 maxabs=5.20e-05 rms=8.72e-06 max_of_range=0.000441 rms_of_range=7.39e-05 nonfinite=0
+10-02 11:30:50.822 I/InkBench(27412): CHECK heat_s8_ec K=4 litert-gpu out0 n=32768 range=0.116 maxabs=5.62e-05 rms=9.12e-06 max_of_range=0.000485 rms_of_range=7.87e-05 nonfinite=0
+10-02 11:31:50.967 I/InkBench(27412): CHECK heat_s8_ec K=8 litert-gpu out0 n=32768 range=0.128 maxabs=6.60e-05 rms=1.05e-05 max_of_range=0.000518 rms_of_range=8.23e-05 nonfinite=0
+10-02 11:32:49.835 I/InkBench(27412): CHECK grayscott_s8_ec K=2 litert-gpu out0 n=65536 range=0.489 maxabs=0.000795 rms=0.000166 max_of_range=0.00162 rms_of_range=0.000339 nonfinite=0
+10-02 11:33:56.276 I/InkBench(27412): CHECK grayscott_s8_ec K=4 litert-gpu out0 n=65536 range=0.731 maxabs=0.00175 rms=0.000380 max_of_range=0.00240 rms_of_range=0.000519 nonfinite=0
+10-02 11:35:13.458 I/InkBench(27412): CHECK grayscott_s8_ec K=8 litert-gpu out0 n=65536 range=0.933 maxabs=0.00203 rms=0.000537 max_of_range=0.00217 rms_of_range=0.000576 nonfinite=0

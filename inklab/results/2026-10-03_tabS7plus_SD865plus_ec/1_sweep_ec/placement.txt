@@ -1,0 +1,223 @@
+10-03 18:12:14.974 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=1 litert-cpu
+10-03 18:12:14.980 I/tflite  (21869): Replacing 66 out of 66 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:12:14.993 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=1 litert-cpu
+10-03 18:13:02.023 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=1 nnapi
+10-03 18:13:02.100 I/tflite  (21869): Created TensorFlow Lite delegate for NNAPI.
+10-03 18:13:02.101 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:13:02.104 I/TypeManager(21869): Failed to read /vendor/etc/nnapi_extensions_app_allowlist ; No app allowlisted for vendor extensions use.
+10-03 18:13:02.192 I/tflite  (21869): Replacing 12 out of 66 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 18:13:02.192 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:13:02.193 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:13:02.744 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=1 nnapi
+10-03 18:14:11.527 I/tflite  (21869): Replacing 66 out of 66 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:14:11.553 I/InkBench(21869): CHECK heat_s8_ec K=1 nnapi out0 n=32768 range=0.121 maxabs=3.70e-05 rms=8.09e-06 max_of_range=0.000305 rms_of_range=6.66e-05 nonfinite=0
+10-03 18:14:11.553 I/InkBench(21869): done heat_s8_ec K=1 nnapi
+10-03 18:14:11.554 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=1 litert-gpu
+10-03 18:14:11.558 I/tflite  (21869): Replacing 66 out of 66 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-03 18:14:11.764 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=1 litert-gpu
+10-03 18:14:58.338 I/tflite  (21869): Replacing 66 out of 66 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:14:58.377 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=2 litert-cpu
+10-03 18:14:58.378 I/tflite  (21869): Replacing 132 out of 132 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:14:58.398 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=2 litert-cpu
+10-03 18:15:47.060 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=2 nnapi
+10-03 18:15:47.063 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:15:47.137 I/tflite  (21869): Replacing 13 out of 132 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 6 partitions for subgraph 0.
+10-03 18:15:47.137 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:15:47.138 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:15:47.199 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=2 nnapi
+10-03 18:17:03.677 I/tflite  (21869): Replacing 132 out of 132 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:17:03.708 I/InkBench(21869): CHECK heat_s8_ec K=2 nnapi out0 n=32768 range=0.118 maxabs=4.32e-05 rms=9.68e-06 max_of_range=0.000367 rms_of_range=8.21e-05 nonfinite=0
+10-03 18:17:03.708 I/InkBench(21869): done heat_s8_ec K=2 nnapi
+10-03 18:17:03.710 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=2 litert-gpu
+10-03 18:17:03.711 I/tflite  (21869): Replacing 132 out of 132 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-03 18:17:03.952 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=2 litert-gpu
+10-03 18:17:50.827 I/tflite  (21869): Replacing 132 out of 132 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:17:50.875 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=4 litert-cpu
+10-03 18:17:50.876 I/tflite  (21869): Replacing 264 out of 264 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:17:50.902 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=4 litert-cpu
+10-03 18:18:43.066 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=4 nnapi
+10-03 18:18:43.067 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:18:43.253 I/tflite  (21869): Replacing 16 out of 264 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 6 partitions for subgraph 0.
+10-03 18:18:43.253 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:18:43.314 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=4 nnapi
+10-03 18:20:26.642 I/tflite  (21869): Replacing 264 out of 264 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:20:26.697 I/InkBench(21869): CHECK heat_s8_ec K=4 nnapi out0 n=32768 range=0.116 maxabs=5.22e-05 rms=1.04e-05 max_of_range=0.000450 rms_of_range=8.99e-05 nonfinite=0
+10-03 18:20:26.697 I/InkBench(21869): done heat_s8_ec K=4 nnapi
+10-03 18:20:26.698 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=4 litert-gpu
+10-03 18:20:26.700 I/tflite  (21869): Replacing 264 out of 264 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-03 18:20:26.945 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=4 litert-gpu
+10-03 18:21:14.725 I/tflite  (21869): Replacing 264 out of 264 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:21:14.788 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=8 litert-cpu
+10-03 18:21:14.789 I/tflite  (21869): Replacing 528 out of 528 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:21:14.833 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=8 litert-cpu
+10-03 18:22:14.761 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=8 nnapi
+10-03 18:22:14.769 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:22:15.228 I/tflite  (21869): Replacing 20 out of 528 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 6 partitions for subgraph 0.
+10-03 18:22:15.229 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:22:15.316 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=8 nnapi
+10-03 18:24:53.996 I/tflite  (21869): Replacing 528 out of 528 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:24:54.079 I/InkBench(21869): CHECK heat_s8_ec K=8 nnapi out0 n=32768 range=0.128 maxabs=4.41e-05 rms=1.18e-05 max_of_range=0.000345 rms_of_range=9.26e-05 nonfinite=0
+10-03 18:24:54.079 I/InkBench(21869): done heat_s8_ec K=8 nnapi
+10-03 18:24:54.081 I/InkBench(21869): PLACEMENT-BEGIN heat_s8_ec K=8 litert-gpu
+10-03 18:24:54.083 I/tflite  (21869): Replacing 528 out of 528 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-03 18:24:54.378 I/InkBench(21869): PLACEMENT-END heat_s8_ec K=8 litert-gpu
+10-03 18:25:44.790 I/tflite  (21869): Replacing 528 out of 528 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:25:44.887 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=1 litert-cpu
+10-03 18:25:44.888 I/tflite  (21869): Replacing 226 out of 226 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:25:44.897 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=1 litert-cpu
+10-03 18:26:37.110 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=1 nnapi
+10-03 18:26:37.111 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:26:37.195 I/tflite  (21869): Replacing 54 out of 226 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 18:26:37.195 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:26:37.515 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=1 nnapi
+10-03 18:28:56.507 I/tflite  (21869): Replacing 226 out of 226 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:28:56.534 I/InkBench(21869): CHECK grayscott_s8_ec K=1 nnapi out0 n=65536 range=0.318 maxabs=0.000149 rms=5.22e-05 max_of_range=0.000470 rms_of_range=0.000164 nonfinite=0
+10-03 18:28:56.534 I/InkBench(21869): done grayscott_s8_ec K=1 nnapi
+10-03 18:28:56.537 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=1 litert-gpu
+10-03 18:28:56.538 I/tflite  (21869): Replacing 226 out of 226 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-03 18:28:56.937 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=1 litert-gpu
+10-03 18:29:45.828 I/tflite  (21869): Replacing 226 out of 226 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:29:45.874 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=2 litert-cpu
+10-03 18:29:45.875 I/tflite  (21869): Replacing 452 out of 452 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:29:45.899 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=2 litert-cpu
+10-03 18:30:45.836 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=2 nnapi
+10-03 18:30:45.838 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:30:46.213 I/tflite  (21869): Replacing 55 out of 452 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 18:30:46.213 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:30:46.214 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:30:46.317 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=2 nnapi
+10-03 18:33:27.391 I/tflite  (21869): Replacing 452 out of 452 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:33:27.452 I/InkBench(21869): CHECK grayscott_s8_ec K=2 nnapi out0 n=65536 range=0.489 maxabs=0.000711 rms=0.000323 max_of_range=0.00145 rms_of_range=0.000661 nonfinite=0
+10-03 18:33:27.452 I/InkBench(21869): done grayscott_s8_ec K=2 nnapi
+10-03 18:33:27.455 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=2 litert-gpu
+10-03 18:33:27.457 I/tflite  (21869): Replacing 452 out of 452 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-03 18:33:27.909 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=2 litert-gpu
+10-03 18:34:18.003 I/tflite  (21869): Replacing 452 out of 452 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:34:18.077 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=4 litert-cpu
+10-03 18:34:18.079 I/tflite  (21869): Replacing 904 out of 904 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:34:18.117 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=4 litert-cpu
+10-03 18:35:34.261 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=4 nnapi
+10-03 18:35:34.266 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:35:35.159 I/tflite  (21869): Replacing 57 out of 904 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 18:35:35.159 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:35:35.160 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:35:35.303 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=4 nnapi
+10-03 18:39:04.478 I/tflite  (21869): Replacing 904 out of 904 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:39:04.572 I/InkBench(21869): CHECK grayscott_s8_ec K=4 nnapi out0 n=65536 range=0.731 maxabs=0.000940 rms=0.000540 max_of_range=0.00129 rms_of_range=0.000739 nonfinite=0
+10-03 18:39:04.572 I/InkBench(21869): done grayscott_s8_ec K=4 nnapi
+10-03 18:39:04.574 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=4 litert-gpu
+10-03 18:39:04.577 I/tflite  (21869): Replacing 904 out of 904 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-03 18:39:05.078 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=4 litert-gpu
+10-03 18:40:03.836 I/tflite  (21869): Replacing 904 out of 904 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:40:03.956 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=8 litert-cpu
+10-03 18:40:03.958 I/tflite  (21869): Replacing 1808 out of 1808 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:40:04.040 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=8 litert-cpu
+10-03 18:41:53.182 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=8 nnapi
+10-03 18:41:53.192 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:41:56.152 I/tflite  (21869): Replacing 57 out of 1808 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 18:41:56.152 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:41:56.153 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:41:56.304 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=8 nnapi
+10-03 18:47:33.737 I/tflite  (21869): Replacing 1808 out of 1808 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:47:33.908 I/InkBench(21869): CHECK grayscott_s8_ec K=8 nnapi out0 n=65536 range=0.933 maxabs=0.000713 rms=0.000450 max_of_range=0.000765 rms_of_range=0.000483 nonfinite=0
+10-03 18:47:33.908 I/InkBench(21869): done grayscott_s8_ec K=8 nnapi
+10-03 18:47:33.912 I/InkBench(21869): PLACEMENT-BEGIN grayscott_s8_ec K=8 litert-gpu
+10-03 18:47:33.917 I/tflite  (21869): Replacing 1808 out of 1808 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-03 18:47:34.511 I/InkBench(21869): PLACEMENT-END grayscott_s8_ec K=8 litert-gpu
+10-03 18:48:36.666 I/tflite  (21869): Replacing 1808 out of 1808 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-03 18:48:36.867 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=1 litert-cpu
+10-03 18:48:36.868 I/tflite  (21869): Replacing 318 out of 342 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 5 partitions for subgraph 0.
+10-03 18:48:36.891 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=1 litert-cpu
+10-03 18:49:33.090 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=1 nnapi
+10-03 18:49:33.092 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:49:33.121 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:49:33.142 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:49:33.295 I/tflite  (21869): Replacing 43 out of 342 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 18:49:33.295 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:49:33.296 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:49:33.621 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=1 nnapi
+10-03 18:53:14.344 I/tflite  (21869): Replacing 318 out of 342 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 5 partitions for subgraph 0.
+10-03 18:53:14.398 I/InkBench(21869): CHECK ink_i32_ec_fs K=1 nnapi out0 n=65536 range=0.428 maxabs=0.0311 rms=0.00544 max_of_range=0.0725 rms_of_range=0.0127 nonfinite=0
+10-03 18:53:14.398 I/InkBench(21869): CHECK ink_i32_ec_fs K=1 nnapi out1 n=98304 range=0.398 maxabs=0.0332 rms=0.00615 max_of_range=0.0835 rms_of_range=0.0155 nonfinite=0
+10-03 18:53:14.398 I/InkBench(21869): CHECK ink_i32_ec_fs K=1 nnapi out2 n=32768 range=0.311 maxabs=0.0175 rms=0.00247 max_of_range=0.0563 rms_of_range=0.00793 nonfinite=0
+10-03 18:53:14.398 I/InkBench(21869): done ink_i32_ec_fs K=1 nnapi
+10-03 18:53:14.406 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=1 litert-gpu
+10-03 18:53:14.407 I/tflite  (21869): Replacing 229 out of 342 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+10-03 18:53:14.763 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=1 litert-gpu
+10-03 18:54:15.709 I/tflite  (21869): Replacing 318 out of 342 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 5 partitions for subgraph 0.
+10-03 18:54:15.780 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=2 litert-cpu
+10-03 18:54:15.781 I/tflite  (21869): Replacing 630 out of 678 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 9 partitions for subgraph 0.
+10-03 18:54:15.831 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=2 litert-cpu
+10-03 18:55:24.183 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=2 nnapi
+10-03 18:55:24.191 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:55:24.218 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:55:24.240 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:55:24.383 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:55:24.412 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:55:24.494 I/tflite  (21869): Replacing 52 out of 678 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 18:55:24.494 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:55:24.495 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 18:55:24.632 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=2 nnapi
+10-03 18:59:35.367 I/tflite  (21869): Replacing 630 out of 678 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 9 partitions for subgraph 0.
+10-03 18:59:35.455 I/InkBench(21869): CHECK ink_i32_ec_fs K=2 nnapi out0 n=65536 range=0.574 maxabs=0.0450 rms=0.00520 max_of_range=0.0785 rms_of_range=0.00907 nonfinite=0
+10-03 18:59:35.455 I/InkBench(21869): CHECK ink_i32_ec_fs K=2 nnapi out1 n=98304 range=0.586 maxabs=0.0325 rms=0.00620 max_of_range=0.0555 rms_of_range=0.0106 nonfinite=0
+10-03 18:59:35.455 I/InkBench(21869): CHECK ink_i32_ec_fs K=2 nnapi out2 n=32768 range=0.296 maxabs=0.0118 rms=0.00178 max_of_range=0.0400 rms_of_range=0.00602 nonfinite=0
+10-03 18:59:35.455 I/InkBench(21869): done ink_i32_ec_fs K=2 nnapi
+10-03 18:59:35.460 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=2 litert-gpu
+10-03 18:59:35.465 I/tflite  (21869): Replacing 263 out of 678 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 3 partitions for subgraph 0.
+10-03 18:59:35.503 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=4 litert-cpu
+10-03 18:59:35.506 I/tflite  (21869): Replacing 1254 out of 1350 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 17 partitions for subgraph 0.
+10-03 18:59:35.599 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=4 litert-cpu
+10-03 19:01:08.377 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=4 nnapi
+10-03 19:01:08.385 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:08.413 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:08.440 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:08.555 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:08.566 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:08.759 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:08.770 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:08.960 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:08.985 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:09.182 I/tflite  (21869): Replacing 54 out of 1350 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 19:01:09.182 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:09.183 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:01:09.326 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=4 nnapi
+10-03 19:07:06.235 I/tflite  (21869): Replacing 1254 out of 1350 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 17 partitions for subgraph 0.
+10-03 19:07:06.399 I/InkBench(21869): CHECK ink_i32_ec_fs K=4 nnapi out0 n=65536 range=0.799 maxabs=0.00290 rms=0.000112 max_of_range=0.00363 rms_of_range=0.000140 nonfinite=0
+10-03 19:07:06.399 I/InkBench(21869): CHECK ink_i32_ec_fs K=4 nnapi out1 n=98304 range=0.923 maxabs=0.000833 rms=0.000141 max_of_range=0.000903 rms_of_range=0.000153 nonfinite=0
+10-03 19:07:06.399 I/InkBench(21869): CHECK ink_i32_ec_fs K=4 nnapi out2 n=32768 range=0.297 maxabs=0.000658 rms=4.00e-05 max_of_range=0.00222 rms_of_range=0.000135 nonfinite=0
+10-03 19:07:06.399 I/InkBench(21869): done ink_i32_ec_fs K=4 nnapi
+10-03 19:07:06.404 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=4 litert-gpu
+10-03 19:07:06.408 I/tflite  (21869): Replacing 263 out of 1350 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 3 partitions for subgraph 0.
+10-03 19:07:06.435 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=8 litert-cpu
+10-03 19:07:06.439 I/tflite  (21869): Replacing 2502 out of 2694 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 33 partitions for subgraph 0.
+10-03 19:07:06.612 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=8 litert-cpu
+10-03 19:09:28.188 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=8 nnapi
+10-03 19:09:28.201 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:28.212 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:28.227 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:28.478 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:28.523 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:28.768 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:28.776 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:29.079 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:29.091 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:29.265 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:29.280 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:29.439 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:29.456 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:29.678 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:29.721 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:30.000 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:30.046 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:30.347 I/tflite  (21869): Replacing 59 out of 2694 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+10-03 19:09:30.347 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:30.348 W/tflite  (21869): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+10-03 19:09:30.508 I/InkBench(21869): PLACEMENT-END ink_i32_ec_fs K=8 nnapi
+10-03 19:20:04.479 I/tflite  (21869): Replacing 2502 out of 2694 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 33 partitions for subgraph 0.
+10-03 19:20:04.794 I/InkBench(21869): CHECK ink_i32_ec_fs K=8 nnapi out0 n=65536 range=1.07 maxabs=0.00263 rms=0.000116 max_of_range=0.00246 rms_of_range=0.000108 nonfinite=0
+10-03 19:20:04.794 I/InkBench(21869): CHECK ink_i32_ec_fs K=8 nnapi out1 n=98304 range=1.58 maxabs=0.00138 rms=0.000166 max_of_range=0.000871 rms_of_range=0.000105 nonfinite=0
+10-03 19:20:04.794 I/InkBench(21869): CHECK ink_i32_ec_fs K=8 nnapi out2 n=32768 range=0.331 maxabs=0.000338 rms=4.14e-05 max_of_range=0.00102 rms_of_range=0.000125 nonfinite=0
+10-03 19:20:04.794 I/InkBench(21869): done ink_i32_ec_fs K=8 nnapi
+10-03 19:20:04.802 I/InkBench(21869): PLACEMENT-BEGIN ink_i32_ec_fs K=8 litert-gpu
+10-03 19:20:04.817 I/tflite  (21869): Replacing 263 out of 2694 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 3 partitions for subgraph 0.

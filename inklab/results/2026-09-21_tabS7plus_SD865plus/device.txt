@@ -1,0 +1,10 @@
+ro.product.model=SM-T975
+ro.soc.manufacturer=QTI
+ro.soc.model=SM8250
+ro.board.platform=kona
+ro.build.version.release=13
+ro.build.fingerprint=samsung/gts7xlxx/gts7xl:13/TP1A.220624.014/T975XXS7DXH2:user/release-keys
+  AC powered: false
+  USB powered: true
+  level: 22
+  temperature: 302

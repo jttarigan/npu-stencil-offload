@@ -1,0 +1,25 @@
+device,soc,workload,K,units,mode,rep,ms_per_submission,thermal,battery_c
+2311DRK48G,Mediatek MT6897,ink_i32_ec_fs,1,litert-gpu,b2b,1,36.2118,0,29.8
+2311DRK48G,Mediatek MT6897,ink_i32_ec_fs,1,litert-gpu,b2b,2,32.2025,0,29.8
+2311DRK48G,Mediatek MT6897,ink_i32_ec_fs,1,litert-gpu,b2b,3,32.6660,0,29.8
+2311DRK48G,Mediatek MT6897,ink_i32_ec_fs,1,litert-gpu,paced,1,32.8748,0,29.6
+2311DRK48G,Mediatek MT6897,ink_i32_ec_fs,1,litert-gpu,paced,2,32.7333,0,29.6
+2311DRK48G,Mediatek MT6897,ink_i32_ec_fs,1,litert-gpu,paced,3,32.7153,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s32_ec,1,litert-gpu,b2b,1,10.6724,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s32_ec,1,litert-gpu,b2b,2,10.5656,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s32_ec,1,litert-gpu,b2b,3,10.4850,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s32_ec,1,litert-gpu,paced,1,14.9965,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s32_ec,1,litert-gpu,paced,2,14.9812,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s32_ec,1,litert-gpu,paced,3,14.8067,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s8_ec,1,litert-gpu,b2b,1,5.5060,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s8_ec,1,litert-gpu,b2b,2,5.4023,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s8_ec,1,litert-gpu,b2b,3,5.3696,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s8_ec,1,litert-gpu,paced,1,10.2949,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s8_ec,1,litert-gpu,paced,2,9.8304,0,29.6
+2311DRK48G,Mediatek MT6897,heat_s8_ec,1,litert-gpu,paced,3,9.9608,0,29.6
+2311DRK48G,Mediatek MT6897,grayscott_s8_ec,1,litert-gpu,b2b,1,10.4450,0,29.6
+2311DRK48G,Mediatek MT6897,grayscott_s8_ec,1,litert-gpu,b2b,2,10.4490,0,29.6
+2311DRK48G,Mediatek MT6897,grayscott_s8_ec,1,litert-gpu,b2b,3,10.2874,0,29.6
+2311DRK48G,Mediatek MT6897,grayscott_s8_ec,1,litert-gpu,paced,1,14.4705,0,29.6
+2311DRK48G,Mediatek MT6897,grayscott_s8_ec,1,litert-gpu,paced,2,14.3588,0,29.6
+2311DRK48G,Mediatek MT6897,grayscott_s8_ec,1,litert-gpu,paced,3,13.4092,0,29.6

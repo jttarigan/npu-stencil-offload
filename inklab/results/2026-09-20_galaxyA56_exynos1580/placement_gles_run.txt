@@ -1,0 +1,43 @@
+09-20 18:17:54.647 I/HoneySpace.IconCache( 2349): add icon DB: [org.inklab.bench/.MainActivity#UserHandle{0}] - IconAndLabel(icon=android.graphics.Bitmap@31eb040, label=InkBench) | false | 640 | false |true
+09-20 18:17:54.780 I/InkBench( 9389): InkBench on SM-A566B (Samsung s5e8855), Android 15
+09-20 18:17:54.780 I/InkBench( 9389): PLACEMENT-BEGIN ink K=1 litert-gpu
+09-20 18:17:54.919 I/InkBench( 9389): SKIP ink K=1 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-20 18:17:54.919 I/InkBench( 9389): MIRROR_PAD: Only Reflective padding is supported for Mirror Pad operation. But node has 2
+09-20 18:17:54.919 I/InkBench( 9389): RESHAPE: OP is supported, but tensor type/shape isn't compatible.
+09-20 18:17:54.919 I/InkBench( 9389): 42 operations will run on the GPU, and the remaining 146 operations will run on the CPU.
+09-20 18:17:54.919 I/InkBench( 9389): No selector for floor
+09-20 18:17:54.919 I/InkBench( 9389): Falling back to OpenGL
+09-20 18:17:54.919 I/InkBench( 9389): TfLiteGpuDelegate Init: Batch size mismatch, expected 1 but got 2 values with divergent batch sizes: 
+09-20 18:17:54.919 I/InkBench( 9389):   id:4 shape:[32768, 
+09-20 18:18:43.695 I/InkBench( 9389): done ink K=1 gles
+09-20 18:18:43.707 I/InkBench( 9389): PLACEMENT-BEGIN ink K=2 litert-gpu
+09-20 18:18:43.746 I/InkBench( 9389): SKIP ink K=2 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-20 18:18:43.746 I/InkBench( 9389): MIRROR_PAD: Only Reflective padding is supported for Mirror Pad operation. But node has 2
+09-20 18:18:43.746 I/InkBench( 9389): RESHAPE: OP is supported, but tensor type/shape isn't compatible.
+09-20 18:18:43.746 I/InkBench( 9389): 44 operations will run on the GPU, and the remaining 331 operations will run on the CPU.
+09-20 18:18:43.746 I/InkBench( 9389): No selector for floor
+09-20 18:18:43.746 I/InkBench( 9389): Falling back to OpenGL
+09-20 18:18:43.746 I/InkBench( 9389): TfLiteGpuDelegate Init: Batch size mismatch, expected 2 but got 46 values with divergent batch sizes: 
+09-20 18:18:43.746 I/InkBench( 9389):   id:2 shape:[1, 256
+09-20 18:19:34.794 I/InkBench( 9389): done ink K=2 gles
+09-20 18:19:34.804 I/InkBench( 9389): PLACEMENT-BEGIN ink K=4 litert-gpu
+09-20 18:19:34.848 I/InkBench( 9389): SKIP ink K=4 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-20 18:19:34.848 I/InkBench( 9389): MIRROR_PAD: Only Reflective padding is supported for Mirror Pad operation. But node has 2
+09-20 18:19:34.848 I/InkBench( 9389): RESHAPE: OP is supported, but tensor type/shape isn't compatible.
+09-20 18:19:34.848 I/InkBench( 9389): 48 operations will run on the GPU, and the remaining 701 operations will run on the CPU.
+09-20 18:19:34.848 I/InkBench( 9389): No selector for floor
+09-20 18:19:34.848 I/InkBench( 9389): Falling back to OpenGL
+09-20 18:19:34.848 I/InkBench( 9389): TfLiteGpuDelegate Init: Batch size mismatch, expected 4 but got 50 values with divergent batch sizes: 
+09-20 18:19:34.848 I/InkBench( 9389):   id:2 shape:[1, 256
+09-20 18:20:30.251 I/InkBench( 9389): done ink K=4 gles
+09-20 18:20:30.265 I/InkBench( 9389): PLACEMENT-BEGIN ink K=8 litert-gpu
+09-20 18:20:30.323 I/InkBench( 9389): SKIP ink K=8 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-20 18:20:30.323 I/InkBench( 9389): MIRROR_PAD: Only Reflective padding is supported for Mirror Pad operation. But node has 2
+09-20 18:20:30.323 I/InkBench( 9389): RESHAPE: OP is supported, but tensor type/shape isn't compatible.
+09-20 18:20:30.323 I/InkBench( 9389): 56 operations will run on the GPU, and the remaining 1441 operations will run on the CPU.
+09-20 18:20:30.323 I/InkBench( 9389): No selector for floor
+09-20 18:20:30.323 I/InkBench( 9389): Falling back to OpenGL
+09-20 18:20:30.323 I/InkBench( 9389): TfLiteGpuDelegate Init: Batch size mismatch, expected 8 but got 58 values with divergent batch sizes: 
+09-20 18:20:30.323 I/InkBench( 9389):   id:2 shape:[1, 25
+09-20 18:21:29.566 I/InkBench( 9389): done ink K=8 gles
+09-20 18:21:29.579 I/InkBench( 9389): DONE /storage/emulated/0/Android/data/org.inklab.bench/files/bench_SM-A566B_1789903074.csv

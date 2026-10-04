@@ -1,0 +1,29 @@
+condition                      vs        border max  interior max   (absolute; range of fp32 output in brackets)
+gathertest_K1_nnapi            a_y0   wrong   1370 of 32768 (4.2%)  max|err| 1  nonfinite 0  (NumPy vs fp32 cpu 0)
+gathertest_K1_nnapi            e_g3   wrong  98120 of 98304 (99.8%)  max|err| 0.18  nonfinite 0  (NumPy vs fp32 cpu 0)
+                                      wrong values found in the table uniquely: 0%
+gathertest_K1_nnapi            d_g2   wrong  65396 of 65536 (99.8%)  max|err| 0.189  nonfinite 0  (NumPy vs fp32 cpu 0)
+                                      wrong values found in the table uniquely: 0%
+gathertest_K1_nnapi            c_g1   wrong  32700 of 32768 (99.8%)  max|err| 0.128  nonfinite 0  (NumPy vs fp32 cpu 0)
+                                      wrong values found in the table uniquely: 0%
+gathertest_K1_nnapi            f_gc3  wrong  98019 of 98304 (99.7%)  max|err| 175  nonfinite 0  (NumPy vs fp32 cpu 0)
+                                      wrong values found in the table uniquely: 0%; not in the table at all: 0%
+gathertest_K1_nnapi            b_x0   wrong    700 of 32768 (2.1%)  max|err| 1  nonfinite 0  (NumPy vs fp32 cpu 0)
+gathertest_K1_nnapi-fp32       a_y0   wrong      0 of 32768 (0.0%)  max|err| 0  nonfinite 0  (NumPy vs fp32 cpu 0)
+gathertest_K1_nnapi-fp32       e_g3   wrong  98304 of 98304 (100.0%)  max|err| 0.18  nonfinite 0  (NumPy vs fp32 cpu 0)
+                                      wrong values found in the table uniquely: 100%
+                                      right cell, wrong channel 0%, row width ignored (idx + c) 0%, planar table (c*H*W + idx) 0%, no gather (own cell) 0%, same channel 100%
+                                      source cell - requested cell (one image row = 128 cells): -7040 x24, -25453 x24, -108 x24, -5120 x21, -19433 x21, -29 x21
+gathertest_K1_nnapi-fp32       d_g2   wrong  65536 of 65536 (100.0%)  max|err| 0.189  nonfinite 0  (NumPy vs fp32 cpu 0)
+                                      wrong values found in the table uniquely: 100%
+                                      right cell, wrong channel 0%, row width ignored (idx + c) 0%, planar table (c*H*W + idx) 0%, no gather (own cell) 0%, same channel 100%
+                                      source cell - requested cell (one image row = 128 cells): -7040 x16, -25453 x16, -108 x16, -5120 x14, -19433 x14, -29 x14
+gathertest_K1_nnapi-fp32       c_g1   wrong  32768 of 32768 (100.0%)  max|err| 0.128  nonfinite 0  (NumPy vs fp32 cpu 0)
+                                      wrong values found in the table uniquely: 100%
+                                      right cell, wrong channel 0%, row width ignored (idx + c) 0%, planar table (c*H*W + idx) 0%, no gather (own cell) 0%, same channel 100%
+                                      source cell - requested cell (one image row = 128 cells): -7040 x8, -25453 x8, -108 x8, -5120 x7, -19433 x7, -29 x7
+gathertest_K1_nnapi-fp32       f_gc3  wrong  98232 of 98304 (99.9%)  max|err| 0.198  nonfinite 0  (NumPy vs fp32 cpu 0)
+                                      wrong values found in the table uniquely: 100%
+                                      right cell, wrong channel 0%, row width ignored (idx + c) 0%, planar table (c*H*W + idx) 0%, no gather (own cell) 0%, same channel 100%
+                                      source cell - requested cell (one image row = 128 cells): -25600 x18, -25088 x18, -19456 x18, -14848 x18, -6144 x18, -4352 x18
+gathertest_K1_nnapi-fp32       b_x0   wrong      0 of 32768 (0.0%)  max|err| 0  nonfinite 0  (NumPy vs fp32 cpu 0)

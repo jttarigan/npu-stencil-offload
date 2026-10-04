@@ -1,0 +1,49 @@
+condition                      vs        border max  interior max   (absolute; range of fp32 output in brackets)
+grayscott_s8_ec_K1_nnapi       fp32 cpu    0.000327      0.000347   [0.318]
+grayscott_s8_ec_K1_nnapi       edge        0.000327      0.000347   [0.318]
+grayscott_s8_ec_K1_nnapi       reflect        0.017      0.000389   [0.318]
+                               (NumPy edge model vs fp32 cpu: 6e-08, so the model is the graph)
+grayscott_s8_ec_K2_nnapi       fp32 cpu    0.000599      0.000707   [0.489]
+grayscott_s8_ec_K2_nnapi       edge        0.000599      0.000707   [0.489]
+grayscott_s8_ec_K2_nnapi       reflect       0.0153       0.00128   [0.489]
+                               (NumPy edge model vs fp32 cpu: 6e-08, so the model is the graph)
+grayscott_s8_ec_K4_nnapi       fp32 cpu     0.00149       0.00148   [0.731]
+grayscott_s8_ec_K4_nnapi       edge         0.00149       0.00148   [0.731]
+grayscott_s8_ec_K4_nnapi       reflect       0.0145       0.00219   [0.731]
+                               (NumPy edge model vs fp32 cpu: 1.2e-07, so the model is the graph)
+grayscott_s8_ec_K8_nnapi       fp32 cpu     0.00157        0.0017   [0.933]
+grayscott_s8_ec_K8_nnapi       edge         0.00157        0.0017   [0.933]
+grayscott_s8_ec_K8_nnapi       reflect       0.0189       0.00174   [0.933]
+                               (NumPy edge model vs fp32 cpu: 1.2e-07, so the model is the graph)
+heat_s32_ec_K1_nnapi           fp32 cpu    2.15e-05      1.76e-05   [0.0555]
+heat_s32_ec_K1_nnapi           edge        2.15e-05      1.76e-05   [0.0555]
+heat_s32_ec_K1_nnapi           reflect      0.00664       0.00258   [0.0555]
+                               (NumPy edge model vs fp32 cpu: 7.5e-09, so the model is the graph)
+heat_s32_ec_K2_nnapi           fp32 cpu    2.16e-05      1.81e-05   [0.0579]
+heat_s32_ec_K2_nnapi           edge        2.16e-05      1.81e-05   [0.0579]
+heat_s32_ec_K2_nnapi           reflect       0.0077       0.00348   [0.0579]
+                               (NumPy edge model vs fp32 cpu: 7.5e-09, so the model is the graph)
+heat_s32_ec_K4_nnapi           fp32 cpu    1.94e-05      1.92e-05   [0.045]
+heat_s32_ec_K4_nnapi           edge        1.94e-05      1.92e-05   [0.045]
+heat_s32_ec_K4_nnapi           reflect      0.00772        0.0047   [0.045]
+                               (NumPy edge model vs fp32 cpu: 5.6e-09, so the model is the graph)
+heat_s32_ec_K8_nnapi           fp32 cpu    1.82e-05      1.94e-05   [0.054]
+heat_s32_ec_K8_nnapi           edge        1.82e-05      1.94e-05   [0.054]
+heat_s32_ec_K8_nnapi           reflect       0.0077       0.00507   [0.054]
+                               (NumPy edge model vs fp32 cpu: 5.6e-09, so the model is the graph)
+heat_s8_ec_K1_nnapi            fp32 cpu    3.08e-05      3.84e-05   [0.121]
+heat_s8_ec_K1_nnapi            edge        3.08e-05      3.84e-05   [0.121]
+heat_s8_ec_K1_nnapi            reflect        0.022       0.00065   [0.121]
+                               (NumPy edge model vs fp32 cpu: 1.1e-08, so the model is the graph)
+heat_s8_ec_K2_nnapi            fp32 cpu    4.14e-05      3.65e-05   [0.118]
+heat_s8_ec_K2_nnapi            edge        4.14e-05      3.65e-05   [0.118]
+heat_s8_ec_K2_nnapi            reflect       0.0201       0.00226   [0.118]
+                               (NumPy edge model vs fp32 cpu: 1.1e-08, so the model is the graph)
+heat_s8_ec_K4_nnapi            fp32 cpu    3.66e-05      4.39e-05   [0.116]
+heat_s8_ec_K4_nnapi            edge        3.66e-05      4.39e-05   [0.116]
+heat_s8_ec_K4_nnapi            reflect       0.0209       0.00397   [0.116]
+                               (NumPy edge model vs fp32 cpu: 7.5e-09, so the model is the graph)
+heat_s8_ec_K8_nnapi            fp32 cpu    5.33e-05      4.09e-05   [0.128]
+heat_s8_ec_K8_nnapi            edge        5.33e-05      4.09e-05   [0.128]
+heat_s8_ec_K8_nnapi            reflect       0.0215       0.00678   [0.128]
+                               (NumPy edge model vs fp32 cpu: 7.5e-09, so the model is the graph)

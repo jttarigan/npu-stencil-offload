@@ -1,0 +1,37 @@
+Torch version 2.8.0 has not been tested with coremltools. You may run into unexpected errors. Torch 2.7.0 is the most recent version that has been tested.
+dataset (1408, 2, 256, 128) device mps
+epoch   1  train mse 2.0506  val mse 0.6283  (warm-start-only mse 4.1736)
+epoch   2  train mse 0.6000  val mse 0.3903  (warm-start-only mse 4.1736)
+epoch   3  train mse 0.3750  val mse 0.2527  (warm-start-only mse 4.1736)
+epoch   4  train mse 0.3360  val mse 0.1785  (warm-start-only mse 4.1736)
+epoch   5  train mse 0.1911  val mse 0.1337  (warm-start-only mse 4.1736)
+epoch   6  train mse 0.1398  val mse 0.1169  (warm-start-only mse 4.1736)
+epoch   7  train mse 0.1087  val mse 0.0822  (warm-start-only mse 4.1736)
+epoch   8  train mse 0.0946  val mse 0.0771  (warm-start-only mse 4.1736)
+epoch   9  train mse 0.0925  val mse 0.2079  (warm-start-only mse 4.1736)
+epoch  10  train mse 0.1126  val mse 0.0641  (warm-start-only mse 4.1736)
+epoch  11  train mse 0.0638  val mse 0.0551  (warm-start-only mse 4.1736)
+epoch  12  train mse 0.0645  val mse 0.0852  (warm-start-only mse 4.1736)
+epoch  13  train mse 0.0651  val mse 0.0643  (warm-start-only mse 4.1736)
+epoch  14  train mse 0.0561  val mse 0.0476  (warm-start-only mse 4.1736)
+epoch  15  train mse 0.0500  val mse 0.0534  (warm-start-only mse 4.1736)
+epoch  16  train mse 0.0569  val mse 0.0395  (warm-start-only mse 4.1736)
+epoch  17  train mse 0.0427  val mse 0.0395  (warm-start-only mse 4.1736)
+epoch  18  train mse 0.0483  val mse 0.0512  (warm-start-only mse 4.1736)
+epoch  19  train mse 0.0412  val mse 0.0395  (warm-start-only mse 4.1736)
+epoch  20  train mse 0.0384  val mse 0.0341  (warm-start-only mse 4.1736)
+epoch  21  train mse 0.0373  val mse 0.0340  (warm-start-only mse 4.1736)
+epoch  22  train mse 0.0366  val mse 0.0334  (warm-start-only mse 4.1736)
+epoch  23  train mse 0.0357  val mse 0.0323  (warm-start-only mse 4.1736)
+epoch  24  train mse 0.0350  val mse 0.0319  (warm-start-only mse 4.1736)
+epoch  25  train mse 0.0345  val mse 0.0315  (warm-start-only mse 4.1736)
+epoch  26  train mse 0.0341  val mse 0.0310  (warm-start-only mse 4.1736)
+epoch  27  train mse 0.0339  val mse 0.0308  (warm-start-only mse 4.1736)
+epoch  28  train mse 0.0337  val mse 0.0307  (warm-start-only mse 4.1736)
+epoch  29  train mse 0.0336  val mse 0.0306  (warm-start-only mse 4.1736)
+epoch  30  train mse 0.0335  val mse 0.0306  (warm-start-only mse 4.1736)
+Converting PyTorch Frontend ==> MIL Ops:   0%|          | 0/76 [00:00<?, ? ops/s]Converting PyTorch Frontend ==> MIL Ops:  99%|█████████▊| 75/76 [00:00<00:00, 8086.08 ops/s]
+Running MIL frontend_pytorch pipeline:   0%|          | 0/5 [00:00<?, ? passes/s]Running MIL frontend_pytorch pipeline: 100%|██████████| 5/5 [00:00<00:00, 1344.41 passes/s]
+Running MIL default pipeline:   0%|          | 0/95 [00:00<?, ? passes/s]Running MIL default pipeline: 100%|██████████| 95/95 [00:00<00:00, 1472.43 passes/s]
+Running MIL backend_mlprogram pipeline:   0%|          | 0/12 [00:00<?, ? passes/s]Running MIL backend_mlprogram pipeline: 100%|██████████| 12/12 [00:00<00:00, 2851.81 passes/s]
+saved surrogate_fp16.mlpackage

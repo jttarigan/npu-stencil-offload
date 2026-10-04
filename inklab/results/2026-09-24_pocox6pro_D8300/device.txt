@@ -1,0 +1,18 @@
+ro.product.model=2311DRK48G
+ro.soc.manufacturer=Mediatek
+ro.soc.model=MT6897
+ro.board.platform=mt6897
+ro.build.version.release=16
+ro.build.fingerprint=POCO/duchamp_global/duchamp:16/BP2A.250605.031.A3/OS3.0.302.0.WNLIDXM:user/release-keys
+  AC powered: false
+  USB powered: false
+  level: 95
+  temperature: 343
+  Capacity level: 4
+Thermal Status: 0
+brightness_before=44 mode_before=1
+brightness NOT lowered: HyperOS denies WRITE_SETTINGS to adb shell
+end_  level: 88
+end_  temperature: 350
+end_  Capacity level: 4
+end_Thermal Status: 0

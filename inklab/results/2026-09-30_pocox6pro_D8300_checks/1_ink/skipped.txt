@@ -1,0 +1,3 @@
+09-30 18:38:45.208 I/InkBench(17019): FAIL ink K=2 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds
+09-30 18:47:34.066 I/InkBench(17019): FAIL ink K=4 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds
+09-30 19:00:09.692 I/InkBench(17019): FAIL ink K=8 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds

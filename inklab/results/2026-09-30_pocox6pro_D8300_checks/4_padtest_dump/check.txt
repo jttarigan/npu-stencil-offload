@@ -1,0 +1,4 @@
+09-30 21:14:51.547 I/InkBench(19929): CHECK padtest K=1 nnapi out0 n=33540 range=0.200 maxabs=0.189 rms=0.0121 max_of_range=0.947 rms_of_range=0.0606 nonfinite=0
+09-30 21:15:39.820 I/InkBench(19929): CHECK heat_s32 K=1 nnapi out0 n=32768 range=0.0555 maxabs=0.00664 rms=0.000612 max_of_range=0.120 rms_of_range=0.0110 nonfinite=0
+09-30 21:16:26.183 I/InkBench(19929): CHECK heat_s8 K=1 nnapi out0 n=32768 range=0.121 maxabs=0.0220 rms=0.00120 max_of_range=0.181 rms_of_range=0.00989 nonfinite=0
+09-30 21:17:15.444 I/InkBench(19929): CHECK grayscott_s8 K=1 nnapi out0 n=65536 range=0.318 maxabs=0.0172 rms=0.000898 max_of_range=0.0542 rms_of_range=0.00282 nonfinite=0

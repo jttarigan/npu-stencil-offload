@@ -1,0 +1,135 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float16",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 2, 256, 128]",
+        "name" : "vel_out",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 3 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 3, 256, 128]",
+        "name" : "dye_out",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 1 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 256, 128]",
+        "name" : "pr_out",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 8,
+    "mlProgramOperationTypeHistogram" : {
+      "Ios17.mul" : 15,
+      "Ios17.sqrt" : 1,
+      "Ios17.transpose" : 1,
+      "Ios17.sub" : 31,
+      "Ios17.conv" : 30,
+      "Ios17.greater" : 1,
+      "Ios17.concat" : 2,
+      "Ios17.sliceByIndex" : 4,
+      "Ios17.add" : 4,
+      "Ios17.minimum" : 1,
+      "Ios17.abs" : 1,
+      "Ios17.realDiv" : 1,
+      "Ios17.maximum" : 1,
+      "Ios17.resample" : 2,
+      "Ios17.cast" : 9,
+      "Pad" : 30
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Int32)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "14.0",
+      "tvOS" : "17.0",
+      "visionOS" : "1.0",
+      "watchOS" : "10.0",
+      "iOS" : "17.0",
+      "macCatalyst" : "17.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.source" : "milinternal",
+      "com.github.apple.coremltools.conversion_date" : "2026-09-13"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 2, 256, 128]",
+        "name" : "vel",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 3 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 3, 256, 128]",
+        "name" : "dye",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 1 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 256, 128]",
+        "name" : "pr",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 2, 256, 128]",
+        "name" : "velAdd",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 3 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 3, 256, 128]",
+        "name" : "dyeAdd",
+        "type" : "MultiArray"
+      }
+    ],
+    "generatedClassName" : "ink_step_128x256_j26_fp16_k8",
+    "method" : "predict"
+  }
+]

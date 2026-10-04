@@ -1,0 +1,42 @@
+10-02 11:25:40.829 I/InkBench(27412): PLACEMENT-BEGIN ink_i32_ec_fs K=2 litert-gpu
+10-02 11:25:40.841 I/tflite  (27412): Replacing 263 out of 678 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 3 partitions for subgraph 0.
+10-02 11:25:40.875 I/InkBench(27412): PLACEMENT-BEGIN ink_i32_ec_fs K=4 litert-gpu
+10-02 11:25:40.886 I/tflite  (27412): Replacing 263 out of 1350 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 3 partitions for subgraph 0.
+10-02 11:25:40.914 I/InkBench(27412): PLACEMENT-BEGIN ink_i32_ec_fs K=8 litert-gpu
+10-02 11:25:40.926 I/tflite  (27412): Replacing 263 out of 2694 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 3 partitions for subgraph 0.
+10-02 11:25:40.959 I/InkBench(27412): PLACEMENT-BEGIN heat_s32_ec K=2 litert-gpu
+10-02 11:25:40.963 I/tflite  (27412): Replacing 516 out of 516 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:25:41.179 I/InkBench(27412): PLACEMENT-END heat_s32_ec K=2 litert-gpu
+10-02 11:26:37.247 I/tflite  (27412): Replacing 516 out of 516 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-02 11:26:37.360 I/InkBench(27412): PLACEMENT-BEGIN heat_s32_ec K=4 litert-gpu
+10-02 11:26:37.364 I/tflite  (27412): Replacing 1032 out of 1032 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:26:37.708 I/InkBench(27412): PLACEMENT-END heat_s32_ec K=4 litert-gpu
+10-02 11:27:42.527 I/tflite  (27412): Replacing 1032 out of 1032 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-02 11:27:42.710 I/InkBench(27412): PLACEMENT-BEGIN heat_s32_ec K=8 litert-gpu
+10-02 11:27:42.720 I/tflite  (27412): Replacing 2064 out of 2064 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:27:43.258 I/InkBench(27412): PLACEMENT-END heat_s32_ec K=8 litert-gpu
+10-02 11:29:01.169 I/tflite  (27412): Replacing 2064 out of 2064 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-02 11:29:01.489 I/InkBench(27412): PLACEMENT-BEGIN heat_s8_ec K=2 litert-gpu
+10-02 11:29:01.490 I/tflite  (27412): Replacing 132 out of 132 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:29:01.718 I/InkBench(27412): PLACEMENT-END heat_s8_ec K=2 litert-gpu
+10-02 11:29:54.478 I/tflite  (27412): Replacing 132 out of 132 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-02 11:29:54.530 I/InkBench(27412): PLACEMENT-BEGIN heat_s8_ec K=4 litert-gpu
+10-02 11:29:54.533 I/tflite  (27412): Replacing 264 out of 264 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:29:54.799 I/InkBench(27412): PLACEMENT-END heat_s8_ec K=4 litert-gpu
+10-02 11:30:50.767 I/tflite  (27412): Replacing 264 out of 264 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-02 11:30:50.835 I/InkBench(27412): PLACEMENT-BEGIN heat_s8_ec K=8 litert-gpu
+10-02 11:30:50.838 I/tflite  (27412): Replacing 528 out of 528 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:30:51.150 I/InkBench(27412): PLACEMENT-END heat_s8_ec K=8 litert-gpu
+10-02 11:31:50.872 I/tflite  (27412): Replacing 528 out of 528 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-02 11:31:50.984 I/InkBench(27412): PLACEMENT-BEGIN grayscott_s8_ec K=2 litert-gpu
+10-02 11:31:50.987 I/tflite  (27412): Replacing 452 out of 452 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:31:51.425 I/InkBench(27412): PLACEMENT-END grayscott_s8_ec K=2 litert-gpu
+10-02 11:32:49.770 I/tflite  (27412): Replacing 452 out of 452 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-02 11:32:49.862 I/InkBench(27412): PLACEMENT-BEGIN grayscott_s8_ec K=4 litert-gpu
+10-02 11:32:49.867 I/tflite  (27412): Replacing 904 out of 904 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:32:50.386 I/InkBench(27412): PLACEMENT-END grayscott_s8_ec K=4 litert-gpu
+10-02 11:33:56.165 I/tflite  (27412): Replacing 904 out of 904 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.
+10-02 11:33:56.299 I/InkBench(27412): PLACEMENT-BEGIN grayscott_s8_ec K=8 litert-gpu
+10-02 11:33:56.307 I/tflite  (27412): Replacing 1808 out of 1808 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 1 partitions for subgraph 0.
+10-02 11:33:56.993 I/InkBench(27412): PLACEMENT-END grayscott_s8_ec K=8 litert-gpu
+10-02 11:35:13.261 I/tflite  (27412): Replacing 1808 out of 1808 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 1 partitions for subgraph 0.

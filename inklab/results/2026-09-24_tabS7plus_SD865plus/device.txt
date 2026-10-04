@@ -1,0 +1,15 @@
+ro.product.model=SM-T975
+ro.soc.manufacturer=QTI
+ro.soc.model=SM8250
+ro.board.platform=kona
+ro.build.version.release=13
+ro.build.fingerprint=samsung/gts7xlxx/gts7xl:13/TP1A.220624.014/T975XXS7DXH2:user/release-keys
+  AC powered: false
+  USB powered: false
+  level: 72
+  temperature: 290
+Thermal Status: 0
+set by adb before launch: power saver OFF (was ON), brightness 1 manual (was 78 auto), am kill-all
+end_  level: 50
+end_  temperature: 299
+end_Thermal Status: 0

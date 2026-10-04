@@ -1,0 +1,66 @@
+09-24 15:16:23.515 I/InkBench( 9567): PLACEMENT-BEGIN heat_s8 K=1 litert-cpu
+09-24 15:16:23.536 I/tflite  ( 9567): Replacing 18 out of 26 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 17 partitions for subgraph 0.
+09-24 15:16:23.552 I/InkBench( 9567): PLACEMENT-END heat_s8 K=1 litert-cpu
+09-24 15:17:13.410 I/InkBench( 9567): PLACEMENT-BEGIN heat_s8 K=1 nnapi
+09-24 15:17:13.563 I/tflite  ( 9567): Created TensorFlow Lite delegate for NNAPI.
+09-24 15:17:13.566 W/tflite  ( 9567): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+09-24 15:17:13.576 I/TypeManager( 9567): Failed to read /vendor/etc/nnapi_extensions_app_allowlist ; No app allowlisted for vendor extensions use.
+09-24 15:17:13.813 I/tflite  ( 9567): Replacing 26 out of 26 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-24 15:17:14.081 I/InkBench( 9567): PLACEMENT-END heat_s8 K=1 nnapi
+09-24 15:18:00.113 I/InkBench( 9567): done heat_s8 K=1 nnapi
+09-24 15:18:48.905 I/InkBench( 9567): PLACEMENT-BEGIN heat_s8 K=2 litert-cpu
+09-24 15:18:48.907 I/tflite  ( 9567): Replacing 36 out of 52 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 33 partitions for subgraph 0.
+09-24 15:18:48.935 I/InkBench( 9567): PLACEMENT-END heat_s8 K=2 litert-cpu
+09-24 15:19:44.369 I/InkBench( 9567): PLACEMENT-BEGIN heat_s8 K=2 nnapi
+09-24 15:19:44.371 W/tflite  ( 9567): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+09-24 15:19:44.547 I/tflite  ( 9567): Replacing 52 out of 52 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-24 15:19:45.035 I/InkBench( 9567): PLACEMENT-END heat_s8 K=2 nnapi
+09-24 15:20:31.458 I/InkBench( 9567): done heat_s8 K=2 nnapi
+09-24 15:21:21.857 I/InkBench( 9567): PLACEMENT-BEGIN heat_s8 K=4 litert-cpu
+09-24 15:21:21.861 I/tflite  ( 9567): Replacing 72 out of 104 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 65 partitions for subgraph 0.
+09-24 15:21:21.910 I/InkBench( 9567): PLACEMENT-END heat_s8 K=4 litert-cpu
+09-24 15:22:24.618 I/InkBench( 9567): PLACEMENT-BEGIN heat_s8 K=4 nnapi
+09-24 15:22:24.620 W/tflite  ( 9567): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+09-24 15:22:24.957 I/tflite  ( 9567): Replacing 104 out of 104 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-24 15:22:25.934 I/InkBench( 9567): PLACEMENT-END heat_s8 K=4 nnapi
+09-24 15:26:03.862 I/InkBench( 9567): done heat_s8 K=4 nnapi
+09-24 15:26:53.446 I/InkBench( 9567): PLACEMENT-BEGIN heat_s8 K=8 litert-cpu
+09-24 15:26:53.455 I/tflite  ( 9567): Replacing 144 out of 208 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 129 partitions for subgraph 0.
+09-24 15:26:53.519 I/InkBench( 9567): PLACEMENT-END heat_s8 K=8 litert-cpu
+09-24 15:28:16.094 I/InkBench( 9567): PLACEMENT-BEGIN heat_s8 K=8 nnapi
+09-24 15:28:16.095 W/tflite  ( 9567): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+09-24 15:28:16.728 I/tflite  ( 9567): Replacing 208 out of 208 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-24 15:28:18.840 I/InkBench( 9567): PLACEMENT-END heat_s8 K=8 nnapi
+09-24 15:29:07.548 I/InkBench( 9567): done heat_s8 K=8 nnapi
+09-24 15:29:55.017 I/InkBench( 9567): PLACEMENT-BEGIN grayscott_s8 K=1 litert-cpu
+09-24 15:29:55.028 I/tflite  ( 9567): Replacing 130 out of 146 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 17 partitions for subgraph 0.
+09-24 15:29:55.058 I/InkBench( 9567): PLACEMENT-END grayscott_s8 K=1 litert-cpu
+09-24 15:31:11.557 I/InkBench( 9567): PLACEMENT-BEGIN grayscott_s8 K=1 nnapi
+09-24 15:31:11.559 W/tflite  ( 9567): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+09-24 15:31:11.873 I/tflite  ( 9567): Replacing 146 out of 146 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-24 15:31:12.959 I/InkBench( 9567): PLACEMENT-END grayscott_s8 K=1 nnapi
+09-24 15:32:00.900 I/InkBench( 9567): done grayscott_s8 K=1 nnapi
+09-24 15:32:49.613 I/InkBench( 9567): PLACEMENT-BEGIN grayscott_s8 K=2 litert-cpu
+09-24 15:32:49.616 I/tflite  ( 9567): Replacing 260 out of 292 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 33 partitions for subgraph 0.
+09-24 15:32:49.654 I/InkBench( 9567): PLACEMENT-END grayscott_s8 K=2 litert-cpu
+09-24 15:34:38.306 I/InkBench( 9567): PLACEMENT-BEGIN grayscott_s8 K=2 nnapi
+09-24 15:34:38.308 W/tflite  ( 9567): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+09-24 15:34:38.842 I/tflite  ( 9567): Replacing 292 out of 292 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-24 15:34:41.264 I/InkBench( 9567): PLACEMENT-END grayscott_s8 K=2 nnapi
+09-24 15:35:31.527 I/InkBench( 9567): done grayscott_s8 K=2 nnapi
+09-24 15:36:21.492 I/InkBench( 9567): PLACEMENT-BEGIN grayscott_s8 K=4 litert-cpu
+09-24 15:36:21.500 I/tflite  ( 9567): Replacing 520 out of 584 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 65 partitions for subgraph 0.
+09-24 15:36:21.571 I/InkBench( 9567): PLACEMENT-END grayscott_s8 K=4 litert-cpu
+09-24 15:39:15.393 I/InkBench( 9567): PLACEMENT-BEGIN grayscott_s8 K=4 nnapi
+09-24 15:39:15.395 W/tflite  ( 9567): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+09-24 15:39:16.446 I/tflite  ( 9567): Replacing 584 out of 584 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-24 15:39:22.537 I/InkBench( 9567): PLACEMENT-END grayscott_s8 K=4 nnapi
+09-24 15:40:16.567 I/InkBench( 9567): done grayscott_s8 K=4 nnapi
+09-24 15:41:07.482 I/InkBench( 9567): PLACEMENT-BEGIN grayscott_s8 K=8 litert-cpu
+09-24 15:41:07.494 I/tflite  ( 9567): Replacing 1040 out of 1168 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 129 partitions for subgraph 0.
+09-24 15:41:07.617 I/InkBench( 9567): PLACEMENT-END grayscott_s8 K=8 litert-cpu
+09-24 15:46:08.259 I/InkBench( 9567): PLACEMENT-BEGIN grayscott_s8 K=8 nnapi
+09-24 15:46:08.265 W/tflite  ( 9567): NNAPI SL driver did not implement SL_ANeuralNetworksDiagnostic_registerCallbacks!
+09-24 15:46:10.427 I/tflite  ( 9567): Replacing 1168 out of 1168 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-24 15:46:28.350 I/InkBench( 9567): PLACEMENT-END grayscott_s8 K=8 nnapi
+09-24 15:47:29.995 I/InkBench( 9567): done grayscott_s8 K=8 nnapi

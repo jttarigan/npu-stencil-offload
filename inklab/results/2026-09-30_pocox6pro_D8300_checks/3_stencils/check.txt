@@ -1,0 +1,12 @@
+09-30 20:42:38.958 I/InkBench(19099): CHECK heat_s32 K=1 nnapi out0 n=32768 range=0.0555 maxabs=0.00664 rms=0.000612 max_of_range=0.120 rms_of_range=0.0110 nonfinite=0
+09-30 20:43:30.589 I/InkBench(19099): CHECK heat_s32 K=2 nnapi out0 n=32768 range=0.0579 maxabs=0.00769 rms=0.000685 max_of_range=0.133 rms_of_range=0.0118 nonfinite=0
+09-30 20:44:28.658 I/InkBench(19099): CHECK heat_s32 K=4 nnapi out0 n=32768 range=0.0450 maxabs=0.00770 rms=0.000787 max_of_range=0.171 rms_of_range=0.0175 nonfinite=0
+09-30 20:45:44.482 I/InkBench(19099): CHECK heat_s32 K=8 nnapi out0 n=32768 range=0.0540 maxabs=0.00772 rms=0.000812 max_of_range=0.143 rms_of_range=0.0151 nonfinite=0
+09-30 20:46:31.089 I/InkBench(19099): CHECK heat_s8 K=1 nnapi out0 n=32768 range=0.121 maxabs=0.0220 rms=0.00120 max_of_range=0.181 rms_of_range=0.00989 nonfinite=0
+09-30 20:47:18.437 I/InkBench(19099): CHECK heat_s8 K=2 nnapi out0 n=32768 range=0.118 maxabs=0.0201 rms=0.00127 max_of_range=0.170 rms_of_range=0.0108 nonfinite=0
+09-30 20:48:07.049 I/InkBench(19099): CHECK heat_s8 K=4 nnapi out0 n=32768 range=0.116 maxabs=0.0209 rms=0.00148 max_of_range=0.181 rms_of_range=0.0128 nonfinite=0
+09-30 20:48:58.751 I/InkBench(19099): CHECK heat_s8 K=8 nnapi out0 n=32768 range=0.128 maxabs=0.0214 rms=0.00160 max_of_range=0.168 rms_of_range=0.0126 nonfinite=0
+09-30 20:49:48.365 I/InkBench(19099): CHECK grayscott_s8 K=1 nnapi out0 n=65536 range=0.318 maxabs=0.0172 rms=0.000898 max_of_range=0.0542 rms_of_range=0.00282 nonfinite=0
+09-30 20:50:42.098 I/InkBench(19099): CHECK grayscott_s8 K=2 nnapi out0 n=65536 range=0.489 maxabs=0.0153 rms=0.000817 max_of_range=0.0313 rms_of_range=0.00167 nonfinite=0
+09-30 20:51:44.339 I/InkBench(19099): CHECK grayscott_s8 K=4 nnapi out0 n=65536 range=0.731 maxabs=0.0155 rms=0.000847 max_of_range=0.0213 rms_of_range=0.00116 nonfinite=0
+09-30 20:53:09.061 I/InkBench(19099): CHECK grayscott_s8 K=8 nnapi out0 n=65536 range=0.933 maxabs=0.0189 rms=0.00103 max_of_range=0.0203 rms_of_range=0.00110 nonfinite=0

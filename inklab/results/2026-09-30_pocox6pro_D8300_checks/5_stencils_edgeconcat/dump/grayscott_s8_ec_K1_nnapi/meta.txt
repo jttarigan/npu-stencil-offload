@@ -1,0 +1,3 @@
+in0 serving_default_field:0 1x256x128x2
+in1 serving_default_src:0 1x256x128x2
+out0 PartitionedCall:0 1x256x128x2

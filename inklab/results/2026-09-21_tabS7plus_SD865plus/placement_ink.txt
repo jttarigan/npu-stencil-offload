@@ -1,0 +1,25 @@
+09-21 19:33:36.342 I/adbd    ( 3688): adbd service requested 'shell,v2,TERM=xterm-256color,raw:am start -n org.inklab.bench/.MainActivity --es backends gles,litert-cpu,litert-gpu,nnapi,qnn-htp --es workloads ink --es ks 1,8'
+09-21 19:34:23.310 I/InkBench(29497): PLACEMENT-BEGIN ink K=1 litert-cpu
+09-21 19:34:23.326 I/tflite  (29497): Replacing 140 out of 188 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 63 partitions for subgraph 0.
+09-21 19:34:23.397 I/InkBench(29497): PLACEMENT-END ink K=1 litert-cpu
+09-21 19:34:25.589 I/tflite  (30022): Replacing 34 out of 40 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 9 partitions for subgraph 0 (main).
+09-21 19:34:25.638 I/tflite  (30022): Replacing 34 out of 40 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 9 partitions for subgraph 0 (main).
+09-21 19:36:22.979 I/InkBench(29497): PLACEMENT-BEGIN ink K=1 litert-gpu
+09-21 19:36:22.987 I/tflite  (29497): Replacing 42 out of 188 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-21 19:36:23.101 I/InkBench(29497): PLACEMENT-BEGIN ink K=1 nnapi
+09-21 19:36:23.263 I/tflite  (29497): Created TensorFlow Lite delegate for NNAPI.
+09-21 19:36:23.270 I/TypeManager(29497): Failed to read /vendor/etc/nnapi_extensions_app_allowlist ; No app allowlisted for vendor extensions use.
+09-21 19:36:23.570 I/tflite  (29497): Replacing 45 out of 188 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+09-21 19:36:24.821 I/InkBench(29497): PLACEMENT-END ink K=1 nnapi
+09-21 19:36:24.858 I/InkBench(29497): FAIL ink K=1 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds
+09-21 19:36:24.861 I/InkBench(29497): PLACEMENT-BEGIN ink K=1 qnn-htp
+09-21 19:37:23.309 I/InkBench(29497): PLACEMENT-BEGIN ink K=8 litert-cpu
+09-21 19:37:23.358 I/tflite  (29497): Replacing 1120 out of 1497 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 497 partitions for subgraph 0.
+09-21 19:37:23.639 I/InkBench(29497): PLACEMENT-END ink K=8 litert-cpu
+09-21 19:44:46.586 I/InkBench(29497): PLACEMENT-BEGIN ink K=8 litert-gpu
+09-21 19:44:46.603 I/tflite  (29497): Replacing 56 out of 1497 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-21 19:44:46.626 I/InkBench(29497): PLACEMENT-BEGIN ink K=8 nnapi
+09-21 19:44:47.308 I/tflite  (29497): Replacing 55 out of 1497 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+09-21 19:44:47.661 I/InkBench(29497): PLACEMENT-END ink K=8 nnapi
+09-21 19:58:03.860 I/InkBench(29497): done ink K=8 nnapi
+09-21 19:58:03.872 I/InkBench(29497): PLACEMENT-BEGIN ink K=8 qnn-htp

@@ -1,0 +1,13 @@
+device,soc,workload,K,units,mode,rep,ms_per_submission,thermal,battery_c
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi-fp32,b2b,1,22.4174,0,33.5
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi-fp32,b2b,2,21.9813,0,33.5
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi-fp32,b2b,3,21.5390,0,33.5
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi-fp32,paced,1,22.0750,0,32.9
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi-fp32,paced,2,22.7312,0,32.9
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi-fp32,paced,3,22.6599,0,32.9
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi,b2b,1,15.3408,0,32.9
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi,b2b,2,15.3989,0,32.9
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi,b2b,3,15.3569,0,32.9
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi,paced,1,15.8385,0,32.9
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi,paced,2,15.7937,0,32.9
+2311DRK48G,Mediatek MT6897,gathertest,1,nnapi,paced,3,15.8624,0,32.9

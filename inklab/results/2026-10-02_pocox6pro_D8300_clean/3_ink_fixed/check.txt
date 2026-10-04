@@ -1,0 +1,12 @@
+10-02 10:40:39.717 I/InkBench(21579): CHECK ink_i32_ec_fs K=1 nnapi out0 n=65536 range=0.428 maxabs=0.160 rms=0.0574 max_of_range=0.375 rms_of_range=0.134 nonfinite=0
+10-02 10:40:39.728 I/InkBench(21579): CHECK ink_i32_ec_fs K=1 nnapi out1 n=98304 range=0.398 maxabs=0.169 rms=0.0838 max_of_range=0.425 rms_of_range=0.211 nonfinite=0
+10-02 10:40:39.731 I/InkBench(21579): CHECK ink_i32_ec_fs K=1 nnapi out2 n=32768 range=0.311 maxabs=0.150 rms=0.0322 max_of_range=0.482 rms_of_range=0.104 nonfinite=0
+10-02 10:43:47.738 I/InkBench(21579): CHECK ink_i32_ec_fs K=2 nnapi out0 n=65536 range=0.574 maxabs=0.221 rms=0.0643 max_of_range=0.385 rms_of_range=0.112 nonfinite=0
+10-02 10:43:47.738 I/InkBench(21579): CHECK ink_i32_ec_fs K=2 nnapi out1 n=98304 range=0.586 maxabs=21.3 rms=2.28 max_of_range=36.3 rms_of_range=3.89 nonfinite=0
+10-02 10:43:47.739 I/InkBench(21579): CHECK ink_i32_ec_fs K=2 nnapi out2 n=32768 range=0.296 maxabs=0.132 rms=0.0276 max_of_range=0.446 rms_of_range=0.0933 nonfinite=0
+10-02 10:47:29.017 I/InkBench(21579): CHECK ink_i32_ec_fs K=4 nnapi out0 n=65536 range=0.799 maxabs=0.353 rms=0.0884 max_of_range=0.442 rms_of_range=0.111 nonfinite=0
+10-02 10:47:29.017 I/InkBench(21579): CHECK ink_i32_ec_fs K=4 nnapi out1 n=98304 range=0.923 maxabs=3.40e+38 rms=9.91e+37 max_of_range=3.68e+38 rms_of_range=1.07e+38 nonfinite=0
+10-02 10:47:29.017 I/InkBench(21579): CHECK ink_i32_ec_fs K=4 nnapi out2 n=32768 range=0.297 maxabs=3.40e+38 rms=3.40e+38 max_of_range=1.15e+39 rms_of_range=1.15e+39 nonfinite=0
+10-02 10:54:23.718 I/InkBench(21579): CHECK ink_i32_ec_fs K=8 nnapi out0 n=65536 range=1.07 maxabs=0.470 rms=0.0999 max_of_range=0.440 rms_of_range=0.0934 nonfinite=0
+10-02 10:54:23.718 I/InkBench(21579): CHECK ink_i32_ec_fs K=8 nnapi out1 n=98304 range=1.58 maxabs=3.39e+38 rms=9.78e+37 max_of_range=2.14e+38 rms_of_range=6.19e+37 nonfinite=0
+10-02 10:54:23.718 I/InkBench(21579): CHECK ink_i32_ec_fs K=8 nnapi out2 n=32768 range=0.331 maxabs=3.40e+38 rms=3.40e+38 max_of_range=1.03e+39 rms_of_range=1.03e+39 nonfinite=0

@@ -1,0 +1,3 @@
+52	android.hardware.neuralnetworks.IDevice/mtk-dsp_shim: [android.hardware.neuralnetworks.IDevice]
+53	android.hardware.neuralnetworks.IDevice/mtk-mdla_shim: [android.hardware.neuralnetworks.IDevice]
+54	android.hardware.neuralnetworks.IDevice/mtk-neuron_shim: [android.hardware.neuralnetworks.IDevice]

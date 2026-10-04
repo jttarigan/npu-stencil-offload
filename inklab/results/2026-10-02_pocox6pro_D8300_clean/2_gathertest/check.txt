@@ -1,0 +1,12 @@
+10-02 10:34:14.815 I/InkBench(15325): CHECK gathertest K=1 nnapi-fp32 out0 n=32768 range=255 maxabs=0.00 rms=0.00 max_of_range=0.00 rms_of_range=0.00 nonfinite=0
+10-02 10:34:14.825 I/InkBench(15325): CHECK gathertest K=1 nnapi-fp32 out1 n=98304 range=0.200 maxabs=0.180 rms=0.0791 max_of_range=0.900 rms_of_range=0.396 nonfinite=0
+10-02 10:34:14.831 I/InkBench(15325): CHECK gathertest K=1 nnapi-fp32 out2 n=65536 range=0.200 maxabs=0.189 rms=0.0886 max_of_range=0.943 rms_of_range=0.443 nonfinite=0
+10-02 10:34:14.831 I/InkBench(15325): CHECK gathertest K=1 nnapi-fp32 out3 n=32768 range=0.200 maxabs=0.128 rms=0.0638 max_of_range=0.639 rms_of_range=0.319 nonfinite=0
+10-02 10:34:14.832 I/InkBench(15325): CHECK gathertest K=1 nnapi-fp32 out4 n=98304 range=0.200 maxabs=0.198 rms=0.0796 max_of_range=0.991 rms_of_range=0.398 nonfinite=0
+10-02 10:34:14.832 I/InkBench(15325): CHECK gathertest K=1 nnapi-fp32 out5 n=32768 range=127 maxabs=0.00 rms=0.00 max_of_range=0.00 rms_of_range=0.00 nonfinite=0
+10-02 10:35:14.339 I/InkBench(15325): CHECK gathertest K=1 nnapi out0 n=32768 range=255 maxabs=1.00 rms=0.204 max_of_range=0.00392 rms_of_range=0.000802 nonfinite=0
+10-02 10:35:14.339 I/InkBench(15325): CHECK gathertest K=1 nnapi out1 n=98304 range=0.200 maxabs=0.180 rms=0.0791 max_of_range=0.899 rms_of_range=0.396 nonfinite=0
+10-02 10:35:14.340 I/InkBench(15325): CHECK gathertest K=1 nnapi out2 n=65536 range=0.200 maxabs=0.189 rms=0.0886 max_of_range=0.943 rms_of_range=0.443 nonfinite=0
+10-02 10:35:14.340 I/InkBench(15325): CHECK gathertest K=1 nnapi out3 n=32768 range=0.200 maxabs=0.128 rms=0.0638 max_of_range=0.639 rms_of_range=0.319 nonfinite=0
+10-02 10:35:14.340 I/InkBench(15325): CHECK gathertest K=1 nnapi out4 n=98304 range=0.200 maxabs=175 rms=3.59 max_of_range=875 rms_of_range=18.0 nonfinite=0
+10-02 10:35:14.340 I/InkBench(15325): CHECK gathertest K=1 nnapi out5 n=32768 range=127 maxabs=1.00 rms=0.146 max_of_range=0.00787 rms_of_range=0.00115 nonfinite=0

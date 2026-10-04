@@ -1,0 +1,20 @@
+gameplay_script.json: 2074 steps, finale from 1749
+
+  K   scheme  play median / 5th pct dB   finale median / 5th pct dB   head lag px
+  2   delay     43.2 /   35.6              51.4 /   29.0              5.03
+  2   hold      49.2 /   41.0              57.5 /   30.3
+  4   delay     37.6 /   31.5              45.4 /   25.8             10.07
+  4   hold      43.7 /   33.6              52.8 /   27.8
+  8   delay     32.8 /   28.9              39.5 /   22.5             19.18
+  8   hold      38.2 /   30.9              47.8 /   25.2
+
+smoothness (PSNR between consecutive displayed frames, play phase)
+  shipped / delay: 49.2 dB every frame, no jumps
+  hold K=2: unchanged for 1 of every 2 frames, then a 43.4 dB jump 15.00 times a second
+  hold K=4: unchanged for 3 of every 4 frames, then a 37.9 dB jump 7.50 times a second
+  hold K=8: unchanged for 7 of every 8 frames, then a 33.0 dB jump 3.75 times a second
+
+head lag of the delay scheme
+  K=2:  5.03 sim texels =   46.0 screen px = 0.51 grid cells = 0.067 s
+  K=4: 10.07 sim texels =   92.0 screen px = 1.02 grid cells = 0.133 s
+  K=8: 19.18 sim texels =  175.3 screen px = 1.95 grid cells = 0.267 s

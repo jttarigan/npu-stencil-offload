@@ -1,0 +1,10 @@
+in0 serving_default_x3:0 1x256x128x3
+in1 serving_default_x2:0 1x256x128x2
+in2 serving_default_x1:0 1x256x128x1
+in3 serving_default_vel:0 1x256x128x2
+out0 PartitionedCall:0 1x256x128x1
+out1 PartitionedCall:4 1x256x128x3
+out2 PartitionedCall:3 1x256x128x2
+out3 PartitionedCall:2 1x256x128x1
+out4 PartitionedCall:5 1x256x128x3
+out5 PartitionedCall:1 1x256x128x1

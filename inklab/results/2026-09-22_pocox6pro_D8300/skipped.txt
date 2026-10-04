@@ -1,0 +1,6 @@
+09-22 15:36:39.495 I/InkBench(25528): SKIP ink K=2 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-22 15:36:43.259 I/InkBench(25528): FAIL ink K=2 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds
+09-22 15:41:35.844 I/InkBench(25528): SKIP ink K=4 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-22 15:41:42.368 I/InkBench(25528): FAIL ink K=4 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds
+09-22 15:50:03.433 I/InkBench(25528): SKIP ink K=8 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-22 15:50:12.912 I/InkBench(25528): FAIL ink K=8 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds

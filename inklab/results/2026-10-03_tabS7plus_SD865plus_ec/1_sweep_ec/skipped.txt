@@ -1,0 +1,3 @@
+10-03 18:59:35.503 I/InkBench(21869): SKIP ink_i32_ec_fs K=2 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+10-03 19:07:06.435 I/InkBench(21869): SKIP ink_i32_ec_fs K=4 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+10-03 19:20:04.851 I/InkBench(21869): SKIP ink_i32_ec_fs K=8 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:

@@ -1,0 +1,77 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float16",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 2, 256, 128]",
+        "name" : "state_out",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 8,
+    "mlProgramOperationTypeHistogram" : {
+      "Pad" : 8,
+      "Ios17.cast" : 3,
+      "Ios17.conv" : 8,
+      "Ios17.mul" : 48,
+      "Ios17.sliceByIndex" : 32,
+      "Ios17.add" : 33,
+      "Ios17.concat" : 8,
+      "Ios17.sub" : 24
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Int32)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "14.0",
+      "tvOS" : "17.0",
+      "visionOS" : "1.0",
+      "watchOS" : "10.0",
+      "iOS" : "17.0",
+      "macCatalyst" : "17.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.conversion_date" : "2026-09-19",
+      "com.github.apple.coremltools.source" : "milinternal"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 2, 256, 128]",
+        "name" : "field",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2 × 256 × 128)",
+        "shortDescription" : "",
+        "shape" : "[1, 2, 256, 128]",
+        "name" : "src",
+        "type" : "MultiArray"
+      }
+    ],
+    "generatedClassName" : "grayscott_128x256_s8_fp16_u1",
+    "method" : "predict"
+  }
+]

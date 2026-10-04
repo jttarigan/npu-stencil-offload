@@ -1,0 +1,2 @@
+in0 serving_default_x:0 1x256x128x1
+out0 PartitionedCall:0 1x258x130x1

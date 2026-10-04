@@ -1,0 +1,16 @@
+android.hardware.neuralnetworks@1.0::IDevice/qti-default
+android.hardware.neuralnetworks@1.0::IDevice/qti-dsp
+android.hardware.neuralnetworks@1.0::IDevice/qti-gpu
+android.hardware.neuralnetworks@1.0::IDevice/qti-hta
+android.hardware.neuralnetworks@1.1::IDevice/qti-default
+android.hardware.neuralnetworks@1.1::IDevice/qti-dsp
+android.hardware.neuralnetworks@1.1::IDevice/qti-gpu
+android.hardware.neuralnetworks@1.1::IDevice/qti-hta
+android.hardware.neuralnetworks@1.2::IDevice/qti-default
+android.hardware.neuralnetworks@1.2::IDevice/qti-dsp
+android.hardware.neuralnetworks@1.2::IDevice/qti-gpu
+android.hardware.neuralnetworks@1.2::IDevice/qti-hta
+android.hardware.neuralnetworks@1.3::IDevice/qti-default
+android.hardware.neuralnetworks@1.3::IDevice/qti-dsp
+android.hardware.neuralnetworks@1.3::IDevice/qti-gpu
+android.hardware.neuralnetworks@1.3::IDevice/qti-hta

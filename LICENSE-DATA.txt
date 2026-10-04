@@ -1,0 +1,8 @@
+The data, models, recorded traces and documentation in this archive (every
+file that is not code, see README.md) are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: J. T. Tarigan and R. F. Rahmat (2026), code, models and
+measurements for "Offloading Real-Time Stencil Simulations to Mobile Neural
+Processing Units: Overhead, Placement, and Correctness".

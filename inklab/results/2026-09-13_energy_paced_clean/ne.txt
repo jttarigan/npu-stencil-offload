@@ -1,0 +1,100 @@
+CPU Power: 1370 mW
+GPU Power: 0 mW
+ANE Power: 9 mW
+Combined Power (CPU + GPU + ANE): 1379 mW
+GPU Power: 0 mW
+CPU Power: 980 mW
+GPU Power: 0 mW
+ANE Power: 7 mW
+Combined Power (CPU + GPU + ANE): 987 mW
+GPU Power: 0 mW
+CPU Power: 421 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 429 mW
+GPU Power: 0 mW
+CPU Power: 1410 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1418 mW
+GPU Power: 0 mW
+CPU Power: 1293 mW
+GPU Power: 0 mW
+ANE Power: 7 mW
+Combined Power (CPU + GPU + ANE): 1300 mW
+GPU Power: 0 mW
+CPU Power: 959 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 967 mW
+GPU Power: 0 mW
+CPU Power: 1721 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1729 mW
+GPU Power: 0 mW
+CPU Power: 1282 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1290 mW
+GPU Power: 0 mW
+CPU Power: 1433 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1441 mW
+GPU Power: 0 mW
+CPU Power: 1673 mW
+GPU Power: 0 mW
+ANE Power: 7 mW
+Combined Power (CPU + GPU + ANE): 1680 mW
+GPU Power: 0 mW
+CPU Power: 925 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 933 mW
+GPU Power: 0 mW
+CPU Power: 1609 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1617 mW
+GPU Power: 0 mW
+CPU Power: 948 mW
+GPU Power: 0 mW
+ANE Power: 7 mW
+Combined Power (CPU + GPU + ANE): 955 mW
+GPU Power: 0 mW
+CPU Power: 778 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 786 mW
+GPU Power: 0 mW
+CPU Power: 1041 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1049 mW
+GPU Power: 0 mW
+CPU Power: 1173 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1180 mW
+GPU Power: 0 mW
+CPU Power: 1433 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1441 mW
+GPU Power: 0 mW
+CPU Power: 1309 mW
+GPU Power: 0 mW
+ANE Power: 7 mW
+Combined Power (CPU + GPU + ANE): 1316 mW
+GPU Power: 0 mW
+CPU Power: 1219 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1227 mW
+GPU Power: 0 mW
+CPU Power: 1422 mW
+GPU Power: 0 mW
+ANE Power: 8 mW
+Combined Power (CPU + GPU + ANE): 1430 mW
+GPU Power: 0 mW

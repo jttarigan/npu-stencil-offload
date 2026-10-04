@@ -1,0 +1,14 @@
+== ink_i32_ec_fs_K1_nnapi
+  out0 velocity  range 0.428  max 7.254%  rms 1.2693%  | border max 6.429%  interior max 7.254%  | rel-to-value median 4.45e-02 p99 2.55e+00  | cells >1% of range: 13408 (40.92%)
+      bad cells: rows 1-254 (254 distinct), cols 1-126 (126 distinct)
+      worst cell (y=235, x=63): want [-0.06026017  0.0135568 ] got [-0.06784976 -0.01751986]
+  out1 dye       range 0.398  max 8.351%  rms 1.5461%  | border max 8.211%  interior max 8.351%  | rel-to-value median 3.16e-02 p99 2.89e+00  | cells >1% of range: 16834 (51.37%)
+      bad cells: rows 0-255 (256 distinct), cols 0-127 (128 distinct)
+      worst cell (y=132, x=90): want [ 0.1210344   0.11167213 -0.01383792] got [ 0.08782959  0.09558105 -0.01602173]
+  out2 pressure  range 0.311  max 5.633%  rms 0.7931%  | border max 5.633%  interior max 4.245%  | rel-to-value median 4.99e-02 p99 2.45e+00  | cells >1% of range: 5879 (17.94%)
+      bad cells: rows 0-255 (252 distinct), cols 0-127 (128 distinct)
+      worst cell (y=255, x=100): want [0.03080168] got [0.01328908]
+== ink_i32_ec_fs_K1_nnapi-fp32
+  out0 velocity  range 0.428  max 0.000%  rms 0.0000%  | border max 0.000%  interior max 0.000%  | rel-to-value median 0.00e+00 p99 1.01e-06  | cells >1% of range: 0 (0.00%)
+  out1 dye       range 0.398  max 0.000%  rms 0.0000%  | border max 0.000%  interior max 0.000%  | rel-to-value median 0.00e+00 p99 0.00e+00  | cells >1% of range: 0 (0.00%)
+  out2 pressure  range 0.311  max 0.000%  rms 0.0000%  | border max 0.000%  interior max 0.000%  | rel-to-value median 6.31e-08 p99 1.76e-06  | cells >1% of range: 0 (0.00%)

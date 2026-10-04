@@ -1,0 +1,56 @@
+09-21 20:24:45.002 I/InkBench(13279): PLACEMENT-BEGIN heat_s8 K=1 litert-cpu
+09-21 20:24:45.030 I/tflite  (13279): Replacing 18 out of 26 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 17 partitions for subgraph 0.
+09-21 20:24:45.062 I/InkBench(13279): PLACEMENT-END heat_s8 K=1 litert-cpu
+09-21 20:25:40.732 I/InkBench(13279): PLACEMENT-BEGIN heat_s8 K=1 litert-gpu
+09-21 20:25:40.738 I/tflite  (13279): Replacing 2 out of 26 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-21 20:25:40.856 I/InkBench(13279): PLACEMENT-END heat_s8 K=1 litert-gpu
+09-21 20:26:45.554 I/InkBench(13279): PLACEMENT-BEGIN heat_s8 K=1 nnapi
+09-21 20:26:45.602 I/tflite  (13279): Replacing 6 out of 26 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 6 partitions for subgraph 0.
+09-21 20:26:45.613 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:26:45.625 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:26:45.638 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:26:45.651 I/InkBench(13279): PLACEMENT-END heat_s8 K=1 nnapi
+09-21 20:27:53.464 I/InkBench(13279): PLACEMENT-BEGIN heat_s8 K=1 qnn-htp
+09-21 20:27:53.472 I/InkBench(13279): SKIP heat_s8 K=1 qnn-htp: IllegalArgumentException: Internal error: Failed to apply delegate: Restored original execution plan after delegate application failure.
+09-21 20:28:42.412 I/InkBench(13279): PLACEMENT-BEGIN heat_s8 K=8 litert-cpu
+09-21 20:28:42.421 I/tflite  (13279): Replacing 144 out of 208 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 129 partitions for subgraph 0.
+09-21 20:28:42.533 I/InkBench(13279): PLACEMENT-END heat_s8 K=8 litert-cpu
+09-21 20:31:00.759 I/InkBench(13279): PLACEMENT-BEGIN heat_s8 K=8 litert-gpu
+09-21 20:31:00.765 I/tflite  (13279): Replacing 9 out of 208 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-21 20:31:00.914 I/InkBench(13279): PLACEMENT-END heat_s8 K=8 litert-gpu
+09-21 20:34:12.782 I/InkBench(13279): PLACEMENT-BEGIN heat_s8 K=8 nnapi
+09-21 20:34:12.877 I/tflite  (13279): Replacing 15 out of 208 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 6 partitions for subgraph 0.
+09-21 20:34:12.908 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:34:12.924 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:34:12.938 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:34:12.956 I/InkBench(13279): PLACEMENT-END heat_s8 K=8 nnapi
+09-21 20:37:07.697 I/InkBench(13279): PLACEMENT-BEGIN heat_s8 K=8 qnn-htp
+09-21 20:37:07.701 I/InkBench(13279): SKIP heat_s8 K=8 qnn-htp: IllegalArgumentException: Internal error: Failed to apply delegate: Restored original execution plan after delegate application failure.
+09-21 20:37:53.179 I/InkBench(13279): PLACEMENT-BEGIN grayscott_s8 K=1 litert-cpu
+09-21 20:37:53.186 I/tflite  (13279): Replacing 130 out of 146 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 17 partitions for subgraph 0.
+09-21 20:37:53.224 I/InkBench(13279): PLACEMENT-END grayscott_s8 K=1 litert-cpu
+09-21 20:39:09.209 I/InkBench(13279): PLACEMENT-BEGIN grayscott_s8 K=1 litert-gpu
+09-21 20:39:09.219 I/tflite  (13279): Replacing 16 out of 146 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 3 partitions for subgraph 0.
+09-21 20:39:09.576 I/InkBench(13279): PLACEMENT-END grayscott_s8 K=1 litert-gpu
+09-21 20:40:50.981 I/InkBench(13279): PLACEMENT-BEGIN grayscott_s8 K=1 nnapi
+09-21 20:40:51.077 I/tflite  (13279): Replacing 45 out of 146 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+09-21 20:40:51.225 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:40:51.248 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:40:51.278 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:40:51.287 I/InkBench(13279): PLACEMENT-END grayscott_s8 K=1 nnapi
+09-21 20:43:16.711 I/InkBench(13279): PLACEMENT-BEGIN grayscott_s8 K=1 qnn-htp
+09-21 20:43:16.717 I/InkBench(13279): SKIP grayscott_s8 K=1 qnn-htp: IllegalArgumentException: Internal error: Failed to apply delegate: Restored original execution plan after delegate application failure.
+09-21 20:44:05.267 I/InkBench(13279): PLACEMENT-BEGIN grayscott_s8 K=8 litert-cpu
+09-21 20:44:05.294 I/tflite  (13279): Replacing 1040 out of 1168 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 129 partitions for subgraph 0.
+09-21 20:44:05.445 I/InkBench(13279): PLACEMENT-END grayscott_s8 K=8 litert-cpu
+09-21 20:48:25.877 I/InkBench(13279): PLACEMENT-BEGIN grayscott_s8 K=8 litert-gpu
+09-21 20:48:25.897 I/tflite  (13279): Replacing 17 out of 1168 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 3 partitions for subgraph 0.
+09-21 20:48:26.215 I/InkBench(13279): PLACEMENT-END grayscott_s8 K=8 litert-gpu
+09-21 20:55:28.054 I/InkBench(13279): PLACEMENT-BEGIN grayscott_s8 K=8 nnapi
+09-21 20:55:28.271 I/tflite  (13279): Replacing 48 out of 1168 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+09-21 20:55:28.283 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:55:28.297 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:55:28.325 I/ExecutionPlan(13279): ExecutionPlan::SimpleBody::finish: compilation finished successfully on qti-default
+09-21 20:55:28.337 I/InkBench(13279): PLACEMENT-END grayscott_s8 K=8 nnapi
+09-21 21:01:29.759 I/InkBench(13279): PLACEMENT-BEGIN grayscott_s8 K=8 qnn-htp
+09-21 21:01:29.810 I/InkBench(13279): SKIP grayscott_s8 K=8 qnn-htp: IllegalArgumentException: Internal error: Failed to apply delegate: Restored original execution plan after delegate application failure.

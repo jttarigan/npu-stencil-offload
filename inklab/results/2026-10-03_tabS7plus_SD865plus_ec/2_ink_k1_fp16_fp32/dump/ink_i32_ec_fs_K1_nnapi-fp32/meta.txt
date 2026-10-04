@@ -1,0 +1,8 @@
+in0 serving_default_pr:0 1x256x128x1
+in1 serving_default_dyeAdd:0 1x256x128x3
+in2 serving_default_velAdd:0 1x256x128x2
+in3 serving_default_dye:0 1x256x128x3
+in4 serving_default_vel:0 1x256x128x2
+out0 PartitionedCall:2 1x256x128x2
+out1 PartitionedCall:0 1x256x128x3
+out2 PartitionedCall:1 1x256x128x1

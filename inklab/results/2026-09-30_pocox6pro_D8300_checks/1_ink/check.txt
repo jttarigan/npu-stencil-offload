@@ -1,0 +1,12 @@
+09-30 18:32:54.454 I/InkBench(17019): CHECK ink K=1 nnapi out0 n=65536 range=0.428 maxabs=0.158 rms=0.0334 max_of_range=0.370 rms_of_range=0.0779 nonfinite=44036
+09-30 18:32:54.463 I/InkBench(17019): CHECK ink K=1 nnapi out1 n=98304 range=0.398 maxabs=0.396 rms=0.107 max_of_range=0.997 rms_of_range=0.269 nonfinite=0
+09-30 18:32:54.465 I/InkBench(17019): CHECK ink K=1 nnapi out2 n=32768 range=0.311 maxabs=0.122 rms=0.0171 max_of_range=0.394 rms_of_range=0.0550 nonfinite=21420
+09-30 18:36:50.641 I/InkBench(17019): CHECK ink K=1 nnapi-fp32 out0 n=65536 range=0.428 maxabs=0.198 rms=0.0578 max_of_range=0.461 rms_of_range=0.135 nonfinite=0
+09-30 18:36:50.642 I/InkBench(17019): CHECK ink K=1 nnapi-fp32 out1 n=98304 range=0.398 maxabs=0.196 rms=0.0835 max_of_range=0.493 rms_of_range=0.210 nonfinite=0
+09-30 18:36:50.642 I/InkBench(17019): CHECK ink K=1 nnapi-fp32 out2 n=32768 range=0.311 maxabs=0.150 rms=0.0329 max_of_range=0.483 rms_of_range=0.106 nonfinite=0
+09-30 18:44:51.944 I/InkBench(17019): CHECK ink K=2 nnapi-fp32 out0 n=65536 range=0.574 maxabs=0.309 rms=0.0669 max_of_range=0.538 rms_of_range=0.117 nonfinite=0
+09-30 18:44:51.945 I/InkBench(17019): CHECK ink K=2 nnapi-fp32 out1 n=98304 range=0.586 maxabs=0.340 rms=0.116 max_of_range=0.580 rms_of_range=0.199 nonfinite=0
+09-30 18:44:51.945 I/InkBench(17019): CHECK ink K=2 nnapi-fp32 out2 n=32768 range=0.296 maxabs=0.214 rms=0.0297 max_of_range=0.722 rms_of_range=0.100 nonfinite=0
+09-30 18:55:49.473 I/InkBench(17019): CHECK ink K=4 nnapi-fp32 out0 n=65536 range=0.799 maxabs=0.339 rms=0.0748 max_of_range=0.424 rms_of_range=0.0936 nonfinite=0
+09-30 18:55:49.473 I/InkBench(17019): CHECK ink K=4 nnapi-fp32 out1 n=98304 range=0.923 maxabs=0.517 rms=0.126 max_of_range=0.561 rms_of_range=0.137 nonfinite=0
+09-30 18:55:49.474 I/InkBench(17019): CHECK ink K=4 nnapi-fp32 out2 n=32768 range=0.297 maxabs=0.121 rms=0.0229 max_of_range=0.409 rms_of_range=0.0771 nonfinite=0

@@ -1,0 +1,12 @@
+10-02 11:25:40.875 I/InkBench(27412): SKIP ink_i32_ec_fs K=2 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+10-02 11:25:40.914 I/InkBench(27412): SKIP ink_i32_ec_fs K=4 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+10-02 11:25:40.959 I/InkBench(27412): SKIP ink_i32_ec_fs K=8 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+SKIP ink_i32_ec_fs K=2 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+ADD: OP is supported, but tensor type/shape isn't compatible.
+CAST: Cast from bool not supported for outputs
+MUL: OP is supported, but tensor type/shape isn't compatible.
+RESHAPE: OP is supported, but tensor type/shape isn't compatible.
+263 operations will run on the GPU, and the remaining 415 operations will run on the CPU.
+No selector for floor
+Falling back to OpenGL
+TfLiteGpuDelegate Init: Batch size mismat

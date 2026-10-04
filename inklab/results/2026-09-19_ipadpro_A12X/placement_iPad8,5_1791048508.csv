@@ -1,0 +1,17 @@
+device,model,ops_ne,ops_cpu,ops_gpu,ops_unplaced,cost_ne,cost_cpu,cost_gpu,off_ne_op_types
+"iPad8,5",ink_unroll_128x256_j26_fp16_u1,11,119,0,6,0.000,0.000,0.000,ios17.conv:30 pad:30 ios17.sub:27 ios17.mul:13 ios17.cast:9 ios17.add:4 ios17.resample:2 ios17.slice_by_index:2 ios17.transpose:1 ios17.concat:1 ios17.sqrt:1 ios17.greater:1 ios17.maximum:1 ios17.real_div:1 ios17.minimum:1 ios17.abs:1
+"iPad8,5",ink_unroll_128x256_j26_fp16_u2,0,260,0,7,0.000,0.000,0.000,ios17.sub:62 ios17.conv:60 pad:59 ios17.mul:34 ios17.slice_by_index:12 ios17.cast:10 ios17.add:8 ios17.concat:4 ios17.resample:4 ios17.abs:2 ios17.minimum:2 ios17.real_div:2 ios17.maximum:2 ios17.transpose:2 ios17.sqrt:2 ios17.greater:2
+"iPad8,5",ink_unroll_128x256_j26_fp16_u4,0,516,0,9,0.000,0.000,0.000,ios17.sub:124 ios17.conv:120 pad:117 ios17.mul:68 ios17.slice_by_index:24 ios17.add:16 ios17.cast:12 ios17.concat:8 ios17.resample:8 ios17.transpose:4 ios17.greater:4 ios17.sqrt:4 ios17.real_div:4 ios17.maximum:4 ios17.minimum:4 ios17.abs:4
+"iPad8,5",ink_unroll_128x256_j26_fp16_u8,0,1028,0,13,0.000,0.000,0.000,ios17.sub:248 ios17.conv:240 pad:233 ios17.mul:136 ios17.slice_by_index:48 ios17.add:32 ios17.concat:16 ios17.resample:16 ios17.cast:16 ios17.abs:8 ios17.greater:8 ios17.minimum:8 ios17.sqrt:8 ios17.transpose:8 ios17.real_div:8 ios17.maximum:8
+"iPad8,5",heat_128x256_s32_fp16_u1,1,97,0,2,0.000,0.000,0.000,ios17.conv:32 pad:32 ios17.add:32 ios17.cast:3
+"iPad8,5",heat_128x256_s32_fp16_u2,0,197,0,2,0.000,0.000,0.000,ios17.add:66 pad:64 ios17.conv:64 ios17.cast:3 ios17.slice_by_index:2
+"iPad8,5",heat_128x256_s32_fp16_u4,0,393,0,2,0.000,0.000,0.000,ios17.add:132 ios17.conv:128 pad:128 ios17.slice_by_index:4 ios17.cast:3
+"iPad8,5",heat_128x256_s32_fp16_u8,0,785,0,2,0.000,0.000,0.000,ios17.add:264 pad:256 ios17.conv:256 ios17.slice_by_index:8 ios17.cast:3
+"iPad8,5",heat_128x256_s8_fp16_u1,1,25,0,2,0.000,0.000,0.000,pad:8 ios17.add:8 ios17.conv:8 ios17.cast:3
+"iPad8,5",heat_128x256_s8_fp16_u2,0,53,0,2,0.000,0.000,0.000,ios17.add:18 pad:16 ios17.conv:16 ios17.cast:3 ios17.slice_by_index:2
+"iPad8,5",heat_128x256_s8_fp16_u4,0,105,0,2,0.000,0.000,0.000,ios17.add:36 ios17.conv:32 pad:32 ios17.slice_by_index:4 ios17.cast:3
+"iPad8,5",heat_128x256_s8_fp16_u8,0,209,0,2,0.000,0.000,0.000,ios17.add:72 pad:64 ios17.conv:64 ios17.slice_by_index:8 ios17.cast:3
+"iPad8,5",grayscott_128x256_s8_fp16_u1,1,161,0,2,0.000,0.000,0.000,ios17.mul:48 ios17.add:32 ios17.slice_by_index:32 ios17.sub:24 pad:8 ios17.concat:8 ios17.conv:8 ios17.cast:3
+"iPad8,5",grayscott_128x256_s8_fp16_u2,0,325,0,2,0.000,0.000,0.000,ios17.mul:96 ios17.add:66 ios17.slice_by_index:66 ios17.sub:48 pad:16 ios17.concat:16 ios17.conv:16 ios17.cast:3
+"iPad8,5",grayscott_128x256_s8_fp16_u4,0,649,0,2,0.000,0.000,0.000,ios17.mul:192 ios17.slice_by_index:132 ios17.add:132 ios17.sub:96 pad:32 ios17.concat:32 ios17.conv:32 ios17.cast:3
+"iPad8,5",grayscott_128x256_s8_fp16_u8,0,1297,0,2,0.000,0.000,0.000,ios17.mul:384 ios17.add:264 ios17.slice_by_index:264 ios17.sub:192 ios17.concat:64 ios17.conv:64 pad:64 ios17.cast:3

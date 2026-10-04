@@ -1,0 +1,100 @@
+09-22 15:34:10.916 I/InkBench(25528): PLACEMENT-BEGIN ink K=2 litert-cpu
+09-22 15:34:10.921 I/tflite  (25528): Replacing 280 out of 375 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 125 partitions for subgraph 0.
+09-22 15:34:10.992 I/InkBench(25528): PLACEMENT-END ink K=2 litert-cpu
+09-22 15:36:39.458 I/InkBench(25528): PLACEMENT-BEGIN ink K=2 litert-gpu
+09-22 15:36:39.460 I/tflite  (25528): Replacing 44 out of 375 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-22 15:36:39.495 I/InkBench(25528): PLACEMENT-BEGIN ink K=2 nnapi
+09-22 15:36:39.495 I/InkBench(25528): SKIP ink K=2 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-22 15:36:40.851 I/tflite  (25528): Replacing 269 out of 375 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 6 partitions for subgraph 0.
+09-22 15:36:41.154 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:36:41.156 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:36:42.369 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:36:42.371 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:36:43.192 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:36:43.193 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:36:43.203 I/InkBench(25528): PLACEMENT-END ink K=2 nnapi
+09-22 15:36:43.259 I/InkBench(25528): FAIL ink K=2 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds
+09-22 15:37:43.928 I/InkBench(25528): PLACEMENT-BEGIN ink K=4 litert-cpu
+09-22 15:37:43.943 I/tflite  (25528): Replacing 560 out of 749 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 249 partitions for subgraph 0.
+09-22 15:37:44.065 I/InkBench(25528): PLACEMENT-END ink K=4 litert-cpu
+09-22 15:41:35.815 I/InkBench(25528): PLACEMENT-BEGIN ink K=4 litert-gpu
+09-22 15:41:35.821 I/tflite  (25528): Replacing 48 out of 749 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-22 15:41:35.844 I/InkBench(25528): PLACEMENT-BEGIN ink K=4 nnapi
+09-22 15:41:35.844 I/InkBench(25528): SKIP ink K=4 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-22 15:41:38.664 I/tflite  (25528): Replacing 375 out of 749 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+09-22 15:41:39.882 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:41:39.885 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:41:41.100 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:41:41.103 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:41:42.321 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:41:42.324 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:41:42.341 I/InkBench(25528): PLACEMENT-END ink K=4 nnapi
+09-22 15:41:42.368 I/InkBench(25528): FAIL ink K=4 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds
+09-22 15:42:52.205 I/InkBench(25528): PLACEMENT-BEGIN ink K=8 litert-cpu
+09-22 15:42:52.228 I/tflite  (25528): Replacing 1120 out of 1497 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 497 partitions for subgraph 0.
+09-22 15:42:52.464 I/InkBench(25528): PLACEMENT-END ink K=8 litert-cpu
+09-22 15:50:03.386 I/InkBench(25528): PLACEMENT-BEGIN ink K=8 litert-gpu
+09-22 15:50:03.403 I/tflite  (25528): Replacing 56 out of 1497 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-22 15:50:03.433 I/InkBench(25528): PLACEMENT-BEGIN ink K=8 nnapi
+09-22 15:50:03.433 I/InkBench(25528): SKIP ink K=8 litert-gpu: IllegalArgumentException: Internal error: Failed to apply delegate: Following operations are not supported by GPU delegate:
+09-22 15:50:09.198 I/tflite  (25528): Replacing 375 out of 1497 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 7 partitions for subgraph 0.
+09-22 15:50:10.410 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:50:10.413 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:50:11.637 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:50:11.640 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:50:12.852 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 15:50:12.853 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 15:50:12.882 I/InkBench(25528): PLACEMENT-END ink K=8 nnapi
+09-22 15:50:12.912 I/InkBench(25528): FAIL ink K=8 nnapi: IllegalArgumentException: Internal error: Failed to run on the given Interpreter: gather index out of bounds
+09-22 15:51:05.539 I/InkBench(25528): PLACEMENT-BEGIN heat_s32 K=1 litert-cpu
+09-22 15:51:05.542 I/tflite  (25528): Replacing 66 out of 98 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 65 partitions for subgraph 0.
+09-22 15:51:05.576 I/InkBench(25528): PLACEMENT-END heat_s32 K=1 litert-cpu
+09-22 15:52:00.795 I/InkBench(25528): PLACEMENT-BEGIN heat_s32 K=1 litert-gpu
+09-22 15:52:00.797 I/tflite  (25528): Replacing 2 out of 98 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-22 15:52:00.936 I/InkBench(25528): PLACEMENT-END heat_s32 K=1 litert-gpu
+09-22 16:02:36.298 I/InkBench(25528): PLACEMENT-BEGIN heat_s32 K=2 litert-gpu
+09-22 16:02:36.300 I/tflite  (25528): Replacing 3 out of 196 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-22 16:02:36.409 I/InkBench(25528): PLACEMENT-END heat_s32 K=2 litert-gpu
+09-22 16:13:09.068 I/InkBench(25528): PLACEMENT-BEGIN heat_s32 K=2 nnapi
+09-22 16:13:09.695 I/tflite  (25528): Replacing 196 out of 196 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-22 16:13:11.534 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 16:13:11.535 I/ExecutionPlan(25528): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 16:13:11.537 I/InkBench(25528): PLACEMENT-END heat_s32 K=2 nnapi
+09-22 16:14:59.936 I/InkBench(25528): PLACEMENT-BEGIN heat_s32 K=4 litert-cpu
+09-22 16:14:59.956 I/tflite  (25528): Replacing 264 out of 392 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 257 partitions for subgraph 0.
+09-22 16:15:00.063 I/InkBench(25528): PLACEMENT-END heat_s32 K=4 litert-cpu
+09-22 16:16:26.715 I/InkBench(25528): PLACEMENT-BEGIN heat_s32 K=4 litert-gpu
+09-22 16:16:26.720 I/tflite  (25528): Replacing 5 out of 392 node(s) with delegate (TfLiteGpuDelegateV2) node, yielding 2 partitions for subgraph 0.
+09-22 16:16:26.865 I/InkBench(25528): PLACEMENT-END heat_s32 K=4 litert-gpu
+09-22 16:26:01.244 I/InkBench(14714): PLACEMENT-BEGIN heat_s32 K=4 litert-cpu
+09-22 16:26:01.271 I/tflite  (14714): Replacing 264 out of 392 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 257 partitions for subgraph 0.
+09-22 16:26:01.385 I/InkBench(14714): PLACEMENT-END heat_s32 K=4 litert-cpu
+09-22 16:27:29.865 I/InkBench(14714): PLACEMENT-BEGIN heat_s32 K=4 nnapi
+09-22 16:27:31.120 I/tflite  (14714): Replacing 392 out of 392 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-22 16:27:35.472 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 16:27:35.473 I/ExecutionPlan(14714): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 16:27:35.483 I/InkBench(14714): PLACEMENT-END heat_s32 K=4 nnapi
+09-22 16:29:34.716 I/InkBench(14714): PLACEMENT-BEGIN heat_s32 K=8 litert-cpu
+09-22 16:29:34.737 I/tflite  (14714): Replacing 528 out of 784 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 513 partitions for subgraph 0.
+09-22 16:29:34.950 I/InkBench(14714): PLACEMENT-END heat_s32 K=8 litert-cpu
+09-22 16:31:43.907 I/InkBench(14714): PLACEMENT-BEGIN heat_s32 K=8 nnapi
+09-22 16:31:46.366 I/tflite  (14714): Replacing 784 out of 784 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-22 16:31:58.369 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 16:31:58.371 I/ExecutionPlan(14714): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 16:31:58.376 I/InkBench(14714): PLACEMENT-END heat_s32 K=8 nnapi
+09-22 16:37:25.072 I/InkBench(16544): PLACEMENT-BEGIN heat_s8 K=1 litert-cpu
+09-22 16:37:25.089 I/tflite  (16544): Replacing 18 out of 26 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 17 partitions for subgraph 0.
+09-22 16:37:25.108 I/InkBench(16544): PLACEMENT-END heat_s8 K=1 litert-cpu
+09-22 16:38:13.416 I/InkBench(16544): PLACEMENT-BEGIN heat_s8 K=1 nnapi
+09-22 16:38:13.551 I/tflite  (16544): Replacing 26 out of 26 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-22 16:38:13.779 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 16:38:13.780 I/ExecutionPlan(16544): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 16:38:13.784 I/InkBench(16544): PLACEMENT-END heat_s8 K=1 nnapi
+09-22 16:39:48.177 I/InkBench(16544): PLACEMENT-BEGIN heat_s8 K=2 litert-cpu
+09-22 16:39:48.182 I/tflite  (16544): Replacing 36 out of 52 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 33 partitions for subgraph 0.
+09-22 16:39:48.210 I/InkBench(16544): PLACEMENT-END heat_s8 K=2 litert-cpu
+09-22 16:40:39.005 I/InkBench(16544): PLACEMENT-BEGIN heat_s8 K=2 nnapi
+09-22 16:40:39.179 I/tflite  (16544): Replacing 52 out of 52 node(s) with delegate (TfLiteNnapiDelegate) node, yielding 1 partitions for subgraph 0.
+09-22 16:40:39.615 I/ExecutionPlan( 1381): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron
+09-22 16:40:39.617 I/ExecutionPlan(16544): ExecutionPlan::SimpleBody::finish: compilation finished successfully on mtk-neuron_shim
+09-22 16:40:39.622 I/InkBench(16544): PLACEMENT-END heat_s8 K=2 nnapi
